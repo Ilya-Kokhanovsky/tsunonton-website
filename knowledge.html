@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Knowledge Base - $TSUN | TON GameFi & Telegram Guide</title>
+	<meta name="description" content="Learn how to get started with $TSUN on TON Blockchain. Wallet setup, how to buy, game mechanics, security checks, and crypto basics - all in one place." />
+
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Manrope:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+	<script src="./dist/assets/theme-preload.min.js"></script>
+	<link rel="preload" href="./dist/assets/knowledge.min.css" as="style" />
+	<link rel="stylesheet" href="./dist/assets/knowledge.min.css" />
+</head>
+<body class="knowledge-page">
+
+
+
+<div data-include="./components/knowledge-nav.html"></div>
+
+<header class="page-header">
+	<p class="label">Tsun's Classroom</p>
+	<h1><span>$TSUN</span> Knowledge Base</h1>
+	<p class="subtitle">TON onboarding basics, safe project verification, game guide, and security essentials - everything you need before you tap or swap.</p>
+	<div class="tsun-quote">"New to crypto? Don't worry... I put together this guide. It's not like I want you to succeed or anything - b-baka! Just read it carefully and don't lose your seed phrase."</div>
+</header>
+
+<div class="safety-strip">
+	<div class="inner">
+		<span class="safety-item">
+			<i data-lucide="shield-check" aria-hidden="true"></i>
+			Contract renounced
+		</span>
+		<span class="safety-item">
+			<i data-lucide="lock" aria-hidden="true"></i>
+			LP locked on TonRaffles
+		</span>
+		<span class="safety-item">
+			<i data-lucide="check" aria-hidden="true"></i>
+			0% buy / sell tax
+		</span>
+		<span class="safety-item">
+			<i data-lucide="external-link" aria-hidden="true"></i>
+			<!-- DYNAMIC CONFIG UPDATE -->
+			Verify:&nbsp;<a href="#" data-config-href="tonviewerUrl" target="_blank" rel="noopener">Tonviewer</a>
+		</span>
+	</div>
+</div>
+
+<div class="layout">
+	<aside class="sidebar">
+		<button class="sidebar-toggle" id="sidebar-toggle" type="button" aria-expanded="false" aria-controls="kb-sidebar-panel">
+			<i data-lucide="menu" aria-hidden="true"></i>
+			Browse sections
+		</button>
+		<div class="sidebar-box" id="kb-sidebar-panel">
+			<div class="sidebar-title">Contents</div>
+			<ul class="sidebar-nav" id="sidebar-nav">
+				<li><a href="#quickstart"><span class="num">00</span>Quick Start</a></li>
+				<li><a href="#blockchain"><span class="num">01</span>What is a Blockchain?</a></li>
+				<li><a href="#ton"><span class="num">02</span>What is TON?</a></li>
+				<li><a href="#wallets"><span class="num">03</span>TON Wallets</a></li>
+				<li><a href="#buy"><span class="num">04</span>How to Buy $TSUN</a></li>
+				<li><a href="#dex"><span class="num">05</span>How DEX &amp; Swaps Work</a></li>
+				<li><a href="#tokenomics"><span class="num">06</span>Tokenomics Explained</a></li>
+				<li><a href="#game"><span class="num">07</span>Tsun Points vs $TSUN</a></li>
+				<li><a href="#howtoplay"><span class="num">08</span>How to Play Safely</a></li>
+				<li><a href="#security"><span class="num">09</span>Security &amp; Scam Prevention</a></li>
+				<li><a href="#verify"><span class="num">10</span>Project Verification</a></li>
+				<li><a href="#glossary"><span class="num">11</span>Glossary</a></li>
+			</ul>
+			<div class="sidebar-divider"></div>
+			<div class="contract-pill">
+				<div class="cp-label">Contract Address</div>
+				<!-- DYNAMIC CONFIG UPDATE -->
+				<div class="cp-addr" data-config-contract="full">EQB1oXiTnD34HwdH0L1fiWtKg0XWMD-47t8i933VhUeNDsd_</div>
+				<div class="cp-badges">
+					<span class="cp-badge badge-green">Renounced</span>
+					<span class="cp-badge badge-blue">TON Mainnet</span>
+				</div>
+			</div>
+			<div class="sidebar-divider"></div>
+			<div class="sidebar-links">
+				<a href="./whitepaper.html">Whitepaper</a>
+				<a href="./terms.html">Terms of Service</a>
+				<a href="./privacy.html">Privacy Policy</a>
+				<a href="./risk.html">Risk Disclaimer</a>
+			</div>
+		</div>
+	</aside>
+
+	<main class="main-content">
+		<section class="chapter" id="quickstart">
+			<div class="chapter-label">00 - Quick Start</div>
+			<h2>Quick Start Checklist</h2>
+			<p>New here? This is everything you need to get up and running with $TSUN in under 10 minutes.</p>
+			<ul class="checklist">
+				<li>
+					<span class="check-icon check-ok"><i data-lucide="check" aria-hidden="true"></i></span>
+					<span><strong>Get a TON wallet.</strong> Download <a href="https://tonkeeper.com" target="_blank" rel="noopener">Tonkeeper</a> (mobile) or install <a href="https://mytonwallet.io" target="_blank" rel="noopener">MyTonWallet</a> (desktop). Create a new wallet and <strong>write down your seed phrase offline</strong>.</span>
+				</li>
+				<li>
+					<span class="check-icon check-ok"><i data-lucide="check" aria-hidden="true"></i></span>
+					<span><strong>Fund your wallet with TON.</strong> Buy TON through a centralized exchange or directly in Telegram via <a href="https://t.me/wallet" target="_blank" rel="noopener">@wallet</a>.</span>
+				</li>
+				<li>
+					<span class="check-icon check-ok"><i data-lucide="check" aria-hidden="true"></i></span>
+					<!-- DYNAMIC CONFIG UPDATE -->
+					<span><strong>Verify the contract address.</strong> Always confirm this official address: <code data-config-contract="full">EQB1oXiTnD34HwdH0L1fiWtKg0XWMD-47t8i933VhUeNDsd_</code>.</span>
+				</li>
+				<li>
+					<span class="check-icon check-ok"><i data-lucide="check" aria-hidden="true"></i></span>
+					<span><strong>Swap on STON.fi.</strong> Use <a href="#" data-config-href="stonfiSwapUrl" target="_blank" rel="noopener">official swap link</a> and verify token contract before confirming.</span>
+				</li>
+				<li>
+					<span class="check-icon check-ok"><i data-lucide="check" aria-hidden="true"></i></span>
+					<span><strong>Play the game (free).</strong> Open <a href="#" data-config-href="telegramBotUrl" target="_blank" rel="noopener">@tsunonton_bot</a> in Telegram and climb the leaderboard.</span>
+				</li>
+				<li>
+					<span class="check-icon check-bad"><i data-lucide="x" aria-hidden="true"></i></span>
+					<span><strong>Never share your seed phrase.</strong> No legitimate service will ever ask for it.</span>
+				</li>
+			</ul>
+		</section>
+
+		<section class="chapter" id="blockchain">
+			<div class="chapter-label">01 - Crypto Basics</div>
+			<h2>What is a Blockchain?</h2>
+			<p>Think of a blockchain as a shared public notebook that thousands of computers maintain simultaneously. Once confirmed, records cannot be changed.</p>
+			<h3>Key properties</h3>
+			<ul>
+				<li><strong>Decentralised</strong> - no single authority controls it.</li>
+				<li><strong>Transparent</strong> - transactions are publicly verifiable.</li>
+				<li><strong>Immutable</strong> - confirmed records are permanent.</li>
+				<li><strong>Trustless</strong> - rules are enforced by smart contracts.</li>
+			</ul>
+			<div class="callout callout-info">
+				<strong>Why this matters for $TSUN:</strong> contract status and LP lock can be independently verified on-chain.
+			</div>
+		</section>
+
+		<section class="chapter" id="ton">
+			<div class="chapter-label">02 - The Network</div>
+			<h2>What is TON Blockchain?</h2>
+			<p><strong>TON (The Open Network)</strong> is a fast Layer-1 blockchain designed for scale, low fees, and Telegram-native UX.</p>
+			<h3>Why $TSUN is built on TON</h3>
+			<ul>
+				<li><strong>Native Telegram integration</strong> via TON Connect and mini apps.</li>
+				<li><strong>Low fees</strong> suitable for frequent interactions.</li>
+				<li><strong>Fast finality</strong> with quick confirmations.</li>
+				<li><strong>Jetton standard</strong> compatibility across TON ecosystem.</li>
+			</ul>
+		</section>
+
+		<section class="chapter" id="wallets">
+			<div class="chapter-label">03 - Wallets</div>
+			<h2>TON Wallets - Your Digital Pocket</h2>
+			<p>A wallet stores access keys, not coins themselves. Whoever controls the private key controls funds.</p>
+			<div class="wallet-grid">
+				<div class="wallet-card">
+					<div class="wallet-name">Tonkeeper</div>
+					<div class="wallet-desc">Mobile-first wallet with clean UX and strong TON Connect support.</div>
+					<div class="wallet-tags"><span class="wtag">iOS</span><span class="wtag">Android</span><span class="wtag">Recommended</span></div>
+				</div>
+				<div class="wallet-card">
+					<div class="wallet-name">MyTonWallet</div>
+					<div class="wallet-desc">Desktop and extension wallet for advanced users.</div>
+					<div class="wallet-tags"><span class="wtag">Desktop</span><span class="wtag">Extension</span><span class="wtag">Advanced</span></div>
+				</div>
+				<div class="wallet-card">
+					<div class="wallet-name">@wallet (Telegram)</div>
+					<div class="wallet-desc">Fast onboarding for Telegram users with optional custodial model.</div>
+					<div class="wallet-tags"><span class="wtag">Telegram</span><span class="wtag">Beginner</span></div>
+				</div>
+				<div class="wallet-card">
+					<div class="wallet-name">OpenMask</div>
+					<div class="wallet-desc">TON extension wallet with familiar browser-first flow.</div>
+					<div class="wallet-tags"><span class="wtag">Extension</span><span class="wtag">EVM users</span></div>
+				</div>
+			</div>
+			<div class="callout callout-danger">
+				<strong>CRITICAL:</strong> Never share your seed phrase with anyone, ever.
+			</div>
+		</section>
+
+		<section class="chapter" id="buy">
+			<div class="chapter-label">04 - Getting $TSUN</div>
+			<h2>How to Buy $TSUN on STON.fi</h2>
+			<p>With a funded TON wallet, buying usually takes a few minutes.</p>
+			<div class="steps">
+				<div class="step">
+					<div class="step-num">01</div>
+					<div>
+						<div class="step-title">Open the swap page</div>
+						<div class="step-text">Use <a href="#" data-config-href="stonfiSwapUrl" target="_blank" rel="noopener">official STON.fi link</a>.</div>
+					</div>
+				</div>
+				<div class="step">
+					<div class="step-num">02</div>
+					<div>
+						<div class="step-title">Connect your wallet</div>
+						<div class="step-text">Confirm the TON Connect prompt in your wallet app.</div>
+					</div>
+				</div>
+				<div class="step">
+					<div class="step-num">03</div>
+					<div>
+						<div class="step-title">Verify token contract</div>
+						<div class="step-text">Match token contract to official address before swapping.</div>
+					</div>
+				</div>
+				<div class="step">
+					<div class="step-num">04</div>
+					<div>
+						<div class="step-title">Set amount and swap</div>
+						<div class="step-text">Confirm output, slippage, and transaction in wallet.</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="chapter" id="dex">
+			<div class="chapter-label">05 - Crypto Mechanics</div>
+			<h2>How a DEX &amp; Swaps Work</h2>
+			<p>A DEX allows wallet-to-wallet trades via smart contracts without centralized custody.</p>
+			<h3>Liquidity Pools</h3>
+			<p>Trades execute against pools, not order books. Pool ratio sets market price.</p>
+			<h3>Price Impact &amp; Slippage</h3>
+			<p>Large trades in smaller pools move price more. Slippage settings protect execution limits.</p>
+			<h3>Gas Fees on TON</h3>
+			<p>Keep a small TON balance for fees to avoid failed transactions.</p>
+		</section>
+
+		<section class="chapter" id="tokenomics">
+			<div class="chapter-label">06 - Token Economics</div>
+			<h2>Tokenomics Explained</h2>
+			<p>Total fixed supply: <strong>1,000,000,000 $TSUN</strong>.</p>
+			<table class="compare-table">
+				<thead><tr><th>Allocation</th><th>%</th><th>Purpose</th></tr></thead>
+				<tbody>
+					<tr><td class="row-label">Game Rewards</td><td>40%</td><td>Phase 3 airdrop rewards</td></tr>
+					<tr><td class="row-label">Community</td><td>24.4%</td><td>Community growth</td></tr>
+					<tr><td class="row-label">Liquidity Pool</td><td>17.3%</td><td>DEX pool liquidity</td></tr>
+					<tr><td class="row-label">Dev &amp; Marketing</td><td>18.3%</td><td>Development and operations</td></tr>
+				</tbody>
+			</table>
+			<div class="callout callout-green">
+				<!-- DYNAMIC CONFIG UPDATE -->
+				<strong>Verify:</strong> <a href="#" data-config-href="tonviewerUrl" target="_blank" rel="noopener">Tonviewer</a>, <a href="#" data-config-href="tonRafflesUrl" target="_blank" rel="noopener">TonRaffles</a>, <a href="#" data-config-href="dexscreenerUrl" target="_blank" rel="noopener">Dexscreener</a>
+			</div>
+		</section>
+
+		<section class="chapter" id="game">
+			<div class="chapter-label">07 - Game Guide</div>
+			<h2>Tsun Points vs $TSUN - What's the Difference?</h2>
+			<table class="compare-table">
+				<thead>
+					<tr><th></th><th>Tsun Points</th><th>$TSUN Token</th></tr>
+				</thead>
+				<tbody>
+					<tr><td class="row-label">What it is</td><td>In-game score</td><td>TON token</td></tr>
+					<tr><td class="row-label">Where it lives</td><td>Game backend</td><td>TON blockchain</td></tr>
+					<tr><td class="row-label">Monetary value</td><td class="val-no">None</td><td class="val-yes">Market-priced</td></tr>
+					<tr><td class="row-label">Tradeable?</td><td class="val-no">No</td><td class="val-yes">Yes</td></tr>
+				</tbody>
+			</table>
+			<div class="callout callout-warn">
+				<strong>Tsun Points are not tokens.</strong> Airdrop eligibility depends on published phase rules.
+			</div>
+		</section>
+
+		<section class="chapter" id="howtoplay">
+			<div class="chapter-label">08 - Playing Safely</div>
+			<h2>How to Play the Clicker Game Safely</h2>
+			<p>Use <a href="#" data-config-href="telegramBotUrl" target="_blank" rel="noopener">@tsunonton_bot</a> from official channels.</p>
+			<ul class="checklist checklist--compact">
+				<li><span class="check-icon check-ok"><i data-lucide="check" aria-hidden="true"></i></span><span>Wallet connect reads public address only.</span></li>
+				<li><span class="check-icon check-ok"><i data-lucide="check" aria-hidden="true"></i></span><span>Sign requests prove ownership and do not move funds.</span></li>
+				<li><span class="check-icon check-bad"><i data-lucide="x" aria-hidden="true"></i></span><span>Never approve transactions you do not understand.</span></li>
+				<li><span class="check-icon check-bad"><i data-lucide="x" aria-hidden="true"></i></span><span>Never disclose seed phrase.</span></li>
+			</ul>
+			<div class="callout callout-info">
+				<strong>Wallet connection is optional.</strong> You can play first and link wallet later.
+			</div>
+		</section>
+
+		<section class="chapter" id="security">
+			<div class="chapter-label">09 - Security</div>
+			<h2>Security &amp; Scam Prevention</h2>
+			<p>Scam patterns are repetitive. Learn and avoid them.</p>
+			<div class="scam-grid">
+				<div class="scam-card"><div class="scam-type">Fake Support DM</div><div class="scam-example">Impersonators ask to connect wallet to "fix" issues.</div></div>
+				<div class="scam-card"><div class="scam-type">Seed Phrase Request</div><div class="scam-example">Any request for seed phrase is always a scam.</div></div>
+				<div class="scam-card"><div class="scam-type">Fake Token</div><div class="scam-example">Same name, different contract. Verify address.</div></div>
+				<div class="scam-card"><div class="scam-type">Fake Airdrop</div><div class="scam-example">Only trust links from official channels.</div></div>
+			</div>
+		</section>
+
+		<section class="chapter" id="verify">
+			<div class="chapter-label">10 - Project Verification</div>
+			<h2>How to Verify $TSUN On-Chain</h2>
+			<div class="contract-display">
+				<div class="ct-label">Official Contract Address</div>
+				<!-- DYNAMIC CONFIG UPDATE -->
+				<div class="ct-addr" data-config-contract="full">EQB1oXiTnD34HwdH0L1fiWtKg0XWMD-47t8i933VhUeNDsd_</div>
+				<div class="ct-badges">
+					<span class="ct-badge ct-green">Renounced</span>
+					<span class="ct-badge ct-green">Verified</span>
+					<span class="ct-badge ct-blue">Jetton</span>
+					<span class="ct-badge ct-blue">TON Mainnet</span>
+				</div>
+			</div>
+			<div class="verify-grid">
+				<!-- DYNAMIC CONFIG UPDATE -->
+				<div class="verify-card"><div class="verify-icon"><i data-lucide="shield-check" aria-hidden="true"></i></div><div class="verify-title">Check Tonviewer</div><div class="verify-text">Confirm contract and supply on <a href="#" data-config-href="tonviewerUrl" target="_blank" rel="noopener">Tonviewer</a>.</div></div>
+				<div class="verify-card"><div class="verify-icon"><i data-lucide="lock" aria-hidden="true"></i></div><div class="verify-title">Check LP lock</div><div class="verify-text">Open <a href="#" data-config-href="tonRafflesUrl" target="_blank" rel="noopener">TonRaffles</a> and verify lock details.</div></div>
+				<div class="verify-card"><div class="verify-icon"><i data-lucide="bar-chart-2" aria-hidden="true"></i></div><div class="verify-title">Check market data</div><div class="verify-text">Track chart and liquidity on <a href="#" data-config-href="dexscreenerUrl" target="_blank" rel="noopener">Dexscreener</a>.</div></div>
+			</div>
+		</section>
+
+		<section class="chapter" id="glossary">
+			<div class="chapter-label">11 - Reference</div>
+			<h2>Glossary</h2>
+			<p>Key terms used across the ecosystem.</p>
+			<div class="glossary">
+				<div class="gterm" onclick="toggleTerm(this)">
+					<button class="gterm-trigger" type="button">
+						<span class="gterm-letter">A</span>
+						<span class="gterm-word">Airdrop</span>
+						<span class="gterm-chevron"><i data-lucide="chevron-right" aria-hidden="true"></i></span>
+					</button>
+					<div class="gterm-body">Token distribution to eligible wallets based on campaign rules.</div>
+				</div>
+
+				<div class="gterm" onclick="toggleTerm(this)">
+					<button class="gterm-trigger" type="button">
+						<span class="gterm-letter">D</span>
+						<span class="gterm-word">DEX</span>
+						<span class="gterm-chevron"><i data-lucide="chevron-right" aria-hidden="true"></i></span>
+					</button>
+					<div class="gterm-body">Decentralised exchange using smart contracts and liquidity pools.</div>
+				</div>
+
+				<div class="gterm" onclick="toggleTerm(this)">
+					<button class="gterm-trigger" type="button">
+						<span class="gterm-letter">S</span>
+						<span class="gterm-word">Seed Phrase</span>
+						<span class="gterm-chevron"><i data-lucide="chevron-right" aria-hidden="true"></i></span>
+					</button>
+					<div class="gterm-body">Master wallet secret. If exposed, funds can be stolen instantly.</div>
+				</div>
+			</div>
+
+			<div class="legal-box legal-box--spaced">
+				<p><strong>Educational content only.</strong> Not financial, legal, or tax advice.</p>
+				<p>Review the <a href="./risk.html" class="legal-link">Risk Disclaimer</a> before making decisions.</p>
+			</div>
+		</section>
+	</main>
+</div>
+
+<div data-include="./components/knowledge-footer.html"></div>
+
+<script src="./dist/assets/vendor/lucide.min.js" defer></script>
+<script type="module" src="./dist/assets/knowledge.min.js" defer></script>
+<script type="module" src="./dist/assets/main.min.js" defer></script>
+
+</body>
+</html>

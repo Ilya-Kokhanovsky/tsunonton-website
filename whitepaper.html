@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>$TSUN Whitepaper | Anime GameFi Token on TON</title>
+	<meta name="description" content="Official whitepaper for $TSUN. Anime tsundere GameFi token on TON Blockchain with tokenomics, game mechanics, roadmap, and architecture.">
+	<link rel="canonical" href="https://tsunonton.com/whitepaper.html">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="$TSUN Whitepaper | Tsunonton">
+	<meta property="og:description" content="Official whitepaper covering $TSUN vision, technology, tokenomics, roadmap, and legal disclosures.">
+	<meta property="og:image" content="https://tsunonton.com/assets/images/og/tsunonton-og.webp">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="$TSUN Whitepaper | Tsunonton">
+	<meta name="twitter:description" content="Read the official whitepaper for $TSUN on TON Blockchain.">
+	<meta name="twitter:image" content="https://tsunonton.com/assets/images/og/tsunonton-og.webp">
+	<meta http-equiv="X-Content-Type-Options" content="nosniff">
+	<link rel="manifest" href="./manifest.json">
+	<link rel="icon" href="./assets/images/icons/favicon.ico" sizes="any">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Manrope:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+	<link rel="preload" href="./dist/assets/main.min.css" as="style">
+	<link rel="preload" href="./dist/assets/whitepaper.min.css" as="style">
+	<link rel="stylesheet" href="./dist/assets/main.min.css">
+	<link rel="stylesheet" href="./dist/assets/whitepaper.min.css">
+</head>
+<body class="whitepaper-page">
+	
+	<div data-include="./components/whitepaper-nav.html"></div>
+
+	<header class="wp-page-header">
+		<p class="wp-label">Official Whitepaper</p>
+		<h1><span>$TSUN</span> - Anime GameFi Token<br>on TON Blockchain</h1>
+		<p class="wp-subtitle">A community-driven GameFi token fusing anime culture with real utility mechanics, native Telegram integration, and transparent on-chain economics.</p>
+		<div class="wp-header-meta">
+			<div class="wp-header-meta-item"><strong>Version:</strong> 1.0</div>
+			<div class="wp-header-meta-item"><strong>Published:</strong> April 2026</div>
+			<div class="wp-header-meta-item"><strong>Network:</strong> TON Blockchain</div>
+			<div class="wp-header-meta-item"><strong>Supply:</strong> 1,000,000,000 $TSUN</div>
+		</div>
+	</header>
+
+	<div class="wp-layout">
+		<aside class="wp-sidebar">
+			<button class="wp-sidebar-toggle" id="wp-sidebar-toggle" type="button" aria-expanded="false" aria-controls="wp-sidebar-panel">
+				<i data-lucide="menu" aria-hidden="true"></i>
+				Browse sections
+			</button>
+			<div class="wp-sidebar-box" id="wp-sidebar-panel">
+				<div class="wp-sidebar-title">Contents</div>
+				<ul class="wp-sidebar-nav" id="sidebar-nav">
+					<li><a href="#abstract"><span class="num">00</span>Abstract</a></li>
+					<li><a href="#vision"><span class="num">01</span>Vision and Mission</a></li>
+					<li><a href="#problem"><span class="num">02</span>Problem Statement</a></li>
+					<li><a href="#solution"><span class="num">03</span>The $TSUN Solution</a></li>
+					<li><a href="#technology"><span class="num">04</span>Technology</a></li>
+					<li><a href="#game"><span class="num">05</span>Game Mechanics</a></li>
+					<li><a href="#tokenomics"><span class="num">06</span>Tokenomics</a></li>
+					<li><a href="#roadmap"><span class="num">07</span>Roadmap</a></li>
+					<li><a href="#community"><span class="num">08</span>Community</a></li>
+					<li><a href="#security"><span class="num">09</span>Security</a></li>
+					<li><a href="#team"><span class="num">10</span>Team</a></li>
+					<li><a href="#legal"><span class="num">11</span>Legal Disclaimer</a></li>
+				</ul>
+				<div class="wp-sidebar-divider"></div>
+				<div class="wp-sidebar-links">
+					<!-- DYNAMIC CONFIG UPDATE -->
+					<a href="#" data-config-href="tonviewerUrl" target="_blank" rel="noopener noreferrer"><i data-lucide="shield-check" aria-hidden="true"></i>Contract on Tonviewer</a>
+					<a href="./privacy.html"><i data-lucide="lock" aria-hidden="true"></i>Privacy Policy</a>
+					<a href="./terms.html"><i data-lucide="file-text" aria-hidden="true"></i>Terms of Service</a>
+					<a href="./risk.html"><i data-lucide="alert-triangle" aria-hidden="true"></i>Risk Disclaimer</a>
+				</div>
+			</div>
+		</aside>
+
+		<main class="wp-main-content">
+			<section class="wp-chapter" id="abstract">
+				<div class="wp-chapter-label">00 - Abstract</div>
+				<h2>Abstract</h2>
+				<p>$TSUN is a community-originated GameFi token deployed on the TON Blockchain. It combines an anime tsundere cultural identity with a practical GameFi engagement loop centered around a Telegram Mini-App clicker game, leaderboard competition, and a phased token airdrop program.</p>
+				<p>The project is designed around three core principles: <strong>transparency</strong> (renounced contract, locked liquidity, all parameters publicly verifiable on-chain), <strong>accessibility</strong> (free-to-play, no investment required to participate in the game), and <strong>community ownership</strong> (no VC backing, no presale, no team token cliff without disclosed vesting).</p>
+				<p>This document describes the project technical architecture, token economics, game mechanics, roadmap, and governance philosophy. It is intended for informational purposes and does not constitute financial or investment advice.</p>
+			</section>
+
+			<section class="wp-chapter" id="vision">
+				<div class="wp-chapter-label">01 - Vision and Mission</div>
+				<h2>Vision and Mission</h2>
+				<h3>Vision</h3>
+				<p>We envision a GameFi ecosystem where cultural communities, anime, gaming, internet-native, are first-class participants in the value they create, not passive consumers. $TSUN is a proof of concept that a culturally resonant token with genuine gameplay mechanics can grow organically without venture capital, presale allocations, or artificial launch mechanics.</p>
+				<h3>Mission</h3>
+				<p>The mission of the $TSUN project is to build an accessible, community-driven GameFi experience on TON Blockchain that:</p>
+				<ul>
+					<li>Lowers the barrier of entry to GameFi through free-to-play Telegram-native gameplay.</li>
+					<li>Rewards genuine community participation through a transparent, merit-based airdrop.</li>
+					<li>Demonstrates that meme culture and real utility mechanics are not mutually exclusive.</li>
+					<li>Builds a self-sustaining community of holders and players aligned by shared culture and economic incentives.</li>
+				</ul>
+				<div class="wp-callout wp-callout-purple">
+					<strong>"It is not like I want you to hold me... b-baka!"</strong> - behind the tsundere persona is a genuine commitment to building something real on TON. The attitude is a feature, not a bug.
+				</div>
+			</section>
+
+			<section class="wp-chapter" id="problem">
+				<div class="wp-chapter-label">02 - Problem Statement</div>
+				<h2>Problem Statement</h2>
+				<h3>The GameFi Engagement Problem</h3>
+				<p>The majority of GameFi projects suffer from short-lived engagement cycles. Players join to earn, earn until yields decline, then leave. This creates a destructive cycle of speculative inflow followed by mass exodus, destroying token value and community cohesion.</p>
+				<h3>The Barrier Problem</h3>
+				<p>Most GameFi titles require users to first purchase tokens or NFTs before playing, creating a financial barrier that filters out community-first participants in favor of purely speculative actors. This misaligns incentives from day one.</p>
+				<h3>The Distribution Problem</h3>
+				<p>Token launches disproportionately favor insiders: venture capitalists receive discounted allocations, team wallets vest silently, and early access is sold rather than earned. Retail participants enter at a structural disadvantage.</p>
+				<h3>The Platform Fragmentation Problem</h3>
+				<p>Most GameFi ecosystems require players to navigate multiple platforms: a separate game client, a browser extension wallet, a DEX, and a community forum. Each additional step loses users. The friction compounds at every handoff.</p>
+			</section>
+
+			<section class="wp-chapter" id="solution">
+				<div class="wp-chapter-label">03 - The $TSUN Solution</div>
+				<h2>The $TSUN Solution</h2>
+				<h3>Free-to-Play First</h3>
+				<p>The Tsunonton clicker game is entirely free to play. No token purchase is required to participate, earn Tsun Points, climb the leaderboard, or qualify for the airdrop. This inverts the standard GameFi model: <strong>play first, earn later, hold if you choose.</strong></p>
+				<h3>Telegram-Native</h3>
+				<p>By building entirely within the Telegram Mini-App ecosystem, $TSUN eliminates the platform fragmentation problem. Players already use Telegram daily. The game, the bot, the community, and the wallet (via @wallet or Tonkeeper) all live within a single environment. This reduces onboarding friction to near zero.</p>
+				<h3>Merit-Based Distribution</h3>
+				<p>The Phase 3 airdrop distributes tokens based on leaderboard performance, a direct proxy for genuine engagement. This rewards players who actually participated in building the community, not wallets that were funded at launch.</p>
+				<h3>Transparent Economics</h3>
+				<p>Every aspect of $TSUN token economics is publicly verifiable on-chain. The contract is renounced, the liquidity pool is locked, and there are zero taxes on buys or sells. There are no hidden wallets and no backdoors.</p>
+
+				<div class="wp-stats-grid">
+					<div class="wp-stat-card">
+						<div class="wp-stat-label">Tax</div>
+						<div class="wp-stat-value">0%</div>
+						<div class="wp-stat-sub">buy and sell</div>
+					</div>
+					<div class="wp-stat-card">
+						<div class="wp-stat-label">Contract</div>
+						<div class="wp-stat-value">Renounced</div>
+						<div class="wp-stat-sub">no admin keys</div>
+					</div>
+					<div class="wp-stat-card">
+						<div class="wp-stat-label">Liquidity</div>
+						<div class="wp-stat-value">Locked</div>
+						<div class="wp-stat-sub">via TonRaffles</div>
+					</div>
+					<div class="wp-stat-card">
+						<div class="wp-stat-label">Presale</div>
+						<div class="wp-stat-value">None</div>
+						<div class="wp-stat-sub">no private round</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="wp-chapter" id="technology">
+				<div class="wp-chapter-label">04 - Technology</div>
+				<h2>Technology Stack</h2>
+				<h3>TON Blockchain</h3>
+				<p>$TSUN is deployed on <strong>The Open Network (TON)</strong>, a layer-1 blockchain originally developed by Telegram and now maintained as an open-source project by the TON Foundation. TON is the natural choice for $TSUN for several reasons:</p>
+				<ul>
+					<li><strong>Native Telegram integration</strong> - TON is the only blockchain with a first-party integration into Telegram via TON Connect, @wallet, and the Mini-App ecosystem, giving $TSUN direct access to Telegram user base.</li>
+					<li><strong>High throughput</strong> - TON sharding architecture supports millions of transactions per second, ensuring the game and token mechanics scale without congestion.</li>
+					<li><strong>Low fees</strong> - transaction costs on TON are a fraction of a cent, making micro-interactions economically viable for all participants.</li>
+					<li><strong>Jetton standard</strong> - $TSUN is implemented as a Jetton, ensuring compatibility with TON-native wallets, DEXes, and explorers.</li>
+				</ul>
+				<h3>Smart Contract</h3>
+				<p>The $TSUN token contract is a standard Jetton implementation deployed on the TON mainnet. The contract has been <strong>renounced</strong>, ownership has been transferred to a null address, permanently removing any ability for the team to modify the contract, mint additional tokens, or execute admin functions.</p>
+				<div class="wp-contract-block">
+					<div class="wp-ct-label">Contract Address (TON Mainnet)</div>
+					<!-- DYNAMIC CONFIG UPDATE -->
+					<div class="wp-ct-addr" data-config-contract="full">EQB1oXiTnD34HwdH0L1fiWtKg0XWMD-47t8i933VhUeNDsd_</div>
+					<div class="wp-ct-meta">
+						<span class="wp-ct-badge wp-ct-green">Renounced</span>
+						<span class="wp-ct-badge wp-ct-green">Verified</span>
+						<span class="wp-ct-badge wp-ct-blue">Jetton Standard</span>
+						<span class="wp-ct-badge wp-ct-blue">TON Mainnet</span>
+					</div>
+				</div>
+				<h3>Telegram Mini-App</h3>
+				<p>The Tsunonton clicker game is built as a <strong>Telegram Mini-App</strong>, a web application embedded directly within the Telegram interface via the Mini-App API. Game state is persisted server-side, linked to the user Telegram ID.</p>
+				<h3>TON Connect</h3>
+				<p>Wallet connectivity is implemented via <strong>TON Connect</strong>, the standard wallet connection protocol for the TON ecosystem. TON Connect provides secure, non-custodial wallet linking: the application receives only the user public wallet address and cannot initiate transactions without explicit user approval.</p>
+			</section>
+
+			<section class="wp-chapter" id="game">
+				<div class="wp-chapter-label">05 - Game Mechanics</div>
+				<h2>Tsunonton Clicker - Game Mechanics</h2>
+				<p>The Tsunonton clicker is a Telegram Mini-App game accessible via @tsunonton_bot. It is free to play, requires no wallet, and no token purchase. The game is the primary engagement and community-building mechanism of the project.</p>
+				<h3>Core Loop</h3>
+				<div class="wp-mechanic-grid">
+					<div class="wp-mechanic-card">
+						<div class="wp-mechanic-icon" aria-hidden="true"><i data-lucide="hand"></i></div>
+						<div class="wp-mechanic-title">Tap and Earn</div>
+						<div class="wp-mechanic-text">Tap the Tsun-chan mascot to earn Tsun Points. Each tap generates points based on your current Tap Power stat.</div>
+					</div>
+					<div class="wp-mechanic-card">
+						<div class="wp-mechanic-icon" aria-hidden="true"><i data-lucide="zap"></i></div>
+						<div class="wp-mechanic-title">Energy System</div>
+						<div class="wp-mechanic-text">Tapping consumes Energy, which regenerates over time. Energy capacity and regen rate can be upgraded.</div>
+					</div>
+					<div class="wp-mechanic-card">
+						<div class="wp-mechanic-icon" aria-hidden="true"><i data-lucide="bar-chart-2"></i></div>
+						<div class="wp-mechanic-title">Upgrades</div>
+						<div class="wp-mechanic-text">Spend Tsun Points to upgrade Tap Power, Energy Capacity, Regeneration Rate, and Passive Income.</div>
+					</div>
+					<div class="wp-mechanic-card">
+						<div class="wp-mechanic-icon" aria-hidden="true"><i data-lucide="clipboard-check"></i></div>
+						<div class="wp-mechanic-title">Quests</div>
+						<div class="wp-mechanic-text">Daily and weekly quests provide point bonuses and boost leaderboard position before Phase 3 snapshot.</div>
+					</div>
+				</div>
+				<h3>Leaderboard and Ranking</h3>
+				<p>All players are ranked globally by total Tsun Points accumulated. The leaderboard is the primary competitive mechanic and the basis for Phase 3 airdrop eligibility. Leaderboard rankings will be snapshotted at the close of Phase 2.</p>
+				<h3>Tsun Points - Important Clarification</h3>
+				<div class="wp-callout wp-callout-warn">
+					<strong>Tsun Points are in-game items only.</strong> They have no monetary value, cannot be traded or transferred, and are not $TSUN tokens. They exist solely within the game environment as a leaderboard ranking mechanism. Airdrop eligibility is determined by leaderboard position, not by any direct conversion of Tsun Points to tokens.
+				</div>
+			</section>
+
+			<section class="wp-chapter" id="tokenomics">
+				<div class="wp-chapter-label">06 - Tokenomics</div>
+				<h2>Tokenomics</h2>
+
+				<div class="wp-stats-grid">
+					<div class="wp-stat-card">
+						<div class="wp-stat-label">Total Supply</div>
+						<div class="wp-stat-value wp-stat-value-small">1,000,000,000</div>
+						<div class="wp-stat-sub">$TSUN (fixed)</div>
+					</div>
+					<div class="wp-stat-card">
+						<div class="wp-stat-label">Decimals</div>
+						<div class="wp-stat-value">9</div>
+						<div class="wp-stat-sub">Jetton standard</div>
+					</div>
+					<div class="wp-stat-card">
+						<div class="wp-stat-label">Ticker</div>
+						<div class="wp-stat-value">$TSUN</div>
+						<div class="wp-stat-sub">symbol</div>
+					</div>
+					<div class="wp-stat-card">
+						<div class="wp-stat-label">Tax</div>
+						<div class="wp-stat-value">0 / 0</div>
+						<div class="wp-stat-sub">buy / sell</div>
+					</div>
+				</div>
+
+				<h3>Token Allocation</h3>
+				<table class="wp-token-table">
+					<thead>
+						<tr>
+							<th>Allocation</th>
+							<th>%</th>
+							<th>Amount</th>
+							<th>Notes</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><div class="alloc-bar"><div class="bar bar-game" style="width:64px"></div><span>Game Rewards</span></div></td>
+							<td><span class="pct">40%</span></td>
+							<td>400,000,000</td>
+							<td>Reserved for Phase 3 airdrop distribution to qualifying players. Held in a dedicated wallet; no release prior to Phase 3.</td>
+						</tr>
+						<tr>
+							<td><div class="alloc-bar"><div class="bar bar-community" style="width:39px"></div><span>Community</span></div></td>
+							<td><span class="pct">24.4%</span></td>
+							<td>244,000,000</td>
+							<td>Community growth, marketing campaigns, partnership incentives, and future community governance initiatives.</td>
+						</tr>
+						<tr>
+							<td><div class="alloc-bar"><div class="bar bar-lp" style="width:28px"></div><span>Liquidity Pool</span></div></td>
+							<td><span class="pct">17.3%</span></td>
+							<td>173,000,000</td>
+							<td>Paired with TON and deposited to the STON.fi liquidity pool. LP tokens locked via TonRaffles. Verifiable on-chain.</td>
+						</tr>
+						<tr>
+							<td><div class="alloc-bar"><div class="bar bar-dev" style="width:29px"></div><span>Dev and Marketing</span></div></td>
+							<td><span class="pct">18.3%</span></td>
+							<td>183,000,000</td>
+							<td>Development costs, infrastructure, future exchange listings, and operational expenses. Subject to vesting: <strong>6-month cliff</strong> from token launch, followed by <strong>18-month linear monthly release</strong>. Approximately 5.56% of Dev allocation released per month post-cliff.</td>
+						</tr>
+					</tbody>
+				</table>
+			</section>
+
+			<section class="wp-chapter" id="roadmap">
+				<div class="wp-chapter-label">07 - Roadmap</div>
+				<h2>Roadmap</h2>
+				<p>The project follows a three-phase development plan. Each phase builds on the previous, progressively deepening utility, community size, and ecosystem reach.</p>
+				<div class="wp-phases">
+					<div class="wp-phase">
+						<div class="wp-phase-num">Phase 1<br><span class="wp-phase-pill wp-pill-done">Done</span></div>
+						<div>
+							<div class="wp-phase-title">Launch - Foundation</div>
+							<ul class="wp-phase-items">
+								<li>Token creation and deployment on TON Mainnet</li>
+								<li>STON.fi DEX listing and initial liquidity provision</li>
+								<li>Liquidity pool locked via TonRaffles</li>
+								<li>Contract renounced</li>
+							</ul>
+						</div>
+					</div>
+					<div class="wp-phase">
+						<div class="wp-phase-num">Phase 2<br><span class="wp-phase-pill wp-pill-active">Active</span></div>
+						<div>
+							<div class="wp-phase-title">GameFi - Engagement</div>
+							<ul class="wp-phase-items">
+								<li>Tsunonton Clicker Mini-App development</li>
+								<li>Telegram bot integration</li>
+								<li>Global leaderboard and quest system</li>
+								<li>Leaderboard snapshot for Phase 3 airdrop</li>
+							</ul>
+						</div>
+					</div>
+					<div class="wp-phase">
+						<div class="wp-phase-num">Phase 3<br><span class="wp-phase-pill wp-pill-upcoming">Q3-Q4 2026</span></div>
+						<div>
+							<div class="wp-phase-title">Expansion - Ecosystem</div>
+							<ul class="wp-phase-items">
+								<li>Airdrop distribution to qualifying players</li>
+								<li>CEX exchange listing applications</li>
+								<li>Community governance proposals and voting</li>
+								<li>Game feature expansion and seasonal events</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="wp-chapter" id="community">
+				<div class="wp-chapter-label">08 - Community</div>
+				<h2>Community</h2>
+				<p>$TSUN is a community-first project. There was no VC round, no presale, and no insider allocation. Every token in circulation was either placed into liquidity, reserved for game rewards, or allocated to the community and development - with no privileged entry for any party.</p>
+				<h3>Channels</h3>
+				<p>The community operates across three primary touchpoints. The <strong>Telegram community chat</strong> is the main hub for announcements, discussion, alpha, and culture. The <strong>@tsunonton_bot</strong> is the official interface for game access, launch notifications, and airdrop updates. <strong>X / Twitter (@tsunonton)</strong> serves as the public-facing broadcast channel for wider reach.</p>
+				<h3>Holder Incentives</h3>
+				<p>Token holders receive tangible in-game advantages. From later game phases, $TSUN holders will receive <strong>bonus tap multipliers</strong> that increase their Tsun Points accumulation rate - creating a direct link between holding the token and competitive leaderboard performance. This aligns the incentives of holders and players into a single cohort.</p>
+				<h3>Community Governance (Phase 3)</h3>
+				<p>From Phase 3 onwards, the project plans to introduce on-chain community governance proposals. $TSUN holders will be able to vote on project direction, allocation of the community treasury, and key roadmap decisions. Governance mechanics, voting weights, and proposal thresholds will be defined and published prior to Phase 3 launch.</p>
+				<h3>Culture and Identity</h3>
+				<p>The tsundere persona of Tsun-chan is the cultural anchor of the project. It attracts an audience that values internet culture, anime aesthetics, and self-aware humour - a community that builds with irony but participates with intent. The Tsun-chan mascot is original artwork created exclusively for $TSUN and forms the visual core of the brand across all platforms.</p>
+			</section>
+
+			<section class="wp-chapter" id="security">
+				<div class="wp-chapter-label">09 - Security</div>
+				<h2>Security and Trust Architecture</h2>
+				<h3>Renounced Contract</h3>
+				<p>The $TSUN smart contract ownership has been permanently transferred to a null address on the TON Blockchain. This irreversibly removes any ability for the project team to modify the contract code, enable transaction taxes, mint additional tokens, pause transfers, or execute any privileged administrative function. The contract's behaviour is fixed at deployment and independently verifiable on Tonviewer.</p>
+				<h3>Locked Liquidity</h3>
+				<p>The LP tokens representing the initial $TSUN/TON liquidity deposited on STON.fi have been locked via <strong>TonRaffles</strong>, a TON-native liquidity locking service. This prevents the withdrawal of the liquidity pool - commonly known as a rug pull. Lock status and expiry are publicly verifiable on-chain at any time.</p>
+				<h3>Zero Tax Architecture</h3>
+				<p>$TSUN has a 0% buy and 0% sell tax, hardcoded at deployment. No redistribution fees, no development wallet taxes, and no hidden transaction costs. Because the contract is renounced, these parameters cannot be changed by any party.</p>
+				<h3>Fixed Supply</h3>
+				<p>The total supply of 1,000,000,000 $TSUN is permanently fixed. Renouncement eliminates any mint authority. There are no inflationary emissions and no mechanisms to increase supply under any circumstance.</p>
+				<h3>Transparency Commitment</h3>
+				<p>All significant project wallets - including the Game Rewards allocation and the Community allocation - will be publicly documented and linked from the project documentation. Community members are encouraged to monitor wallet activity on Tonviewer and flag any unexpected movements for community review.</p>
+			</section>
+
+			<section class="wp-chapter" id="team">
+				<div class="wp-chapter-label">10 - Team</div>
+				<h2>Team</h2>
+				<p>$TSUN is built by an anonymous indie development team. Anonymity is a deliberate choice consistent with the decentralised, community-owned ethos of the project - and is standard practice across the TON meme and GameFi token space.</p>
+				<h3>Why anonymity is not a risk here</h3>
+				<p>In traditional finance, team identity is used as a proxy for accountability. In a renounced, locked, zero-tax token on a public blockchain, the code itself provides that accountability. Every safety parameter is verifiable on-chain without requiring trust in any individual:</p>
+				<ul>
+					<li>The renounced contract means no team member can change the rules.</li>
+					<li>The locked LP means no team member can drain liquidity.</li>
+					<li>The fixed supply means no team member can inflate the supply.</li>
+					<li>The 0% tax means no team member earns from your trades.</li>
+				</ul>
+				<div class="wp-callout wp-callout-info">
+					<strong>Code over credentials.</strong> These are facts, not promises - and they hold regardless of who built them. Verify each one independently on Tonviewer and TonRaffles before forming a judgment.
+				</div>
+				<h3>Team composition</h3>
+				<p>The team covers smart contract development, Telegram Mini-App game development, web frontend engineering, community management, and content creation. Team members operate under pseudonyms within the community and are accessible through official Telegram channels.</p>
+				<h3>Vesting as accountability</h3>
+				<p>The 18.3% Dev and Marketing allocation is subject to a 6-month cliff followed by an 18-month linear vesting schedule. This structure means the team has a long-term financial incentive aligned with the project's success - not a fast-exit structure.</p>
+			</section>
+
+			<section class="wp-chapter" id="legal">
+				<div class="wp-chapter-label">11 - Legal Disclaimer</div>
+				<h2>Legal Disclaimer</h2>
+				<div class="wp-legal-box">
+					<p><strong>This whitepaper is for informational purposes only and does not constitute financial, investment, legal, or tax advice.</strong></p>
+					<p>$TSUN is a high-volatility community token. You may lose some or all funds used to purchase $TSUN.</p>
+					<p>US residents and citizens are strictly prohibited from purchasing or interacting with $TSUN.</p>
+					<p>The airdrop described in this whitepaper is a stated intention, not a binding commitment.</p>
+					<p>Always do your own research and consult qualified professionals before making decisions related to cryptocurrency.</p>
+				</div>
+				<p class="wp-legal-links">Full terms are set out in the <a href="./terms.html">Terms of Service</a>. Data handling is described in the <a href="./privacy.html">Privacy Policy</a>. Additional risk disclosures are available at <a href="./risk.html">risk.html</a>.</p>
+			</section>
+		</main>
+	</div>
+
+	<div data-include="./components/whitepaper-footer.html"></div>
+
+	<script src="./dist/assets/vendor/lucide.min.js" defer></script>
+	<script type="module" src="./dist/assets/main.min.js" defer></script>
+	<script type="module" src="./dist/assets/whitepaper.min.js" defer></script>
+</body>
+</html>

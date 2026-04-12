@@ -1,0 +1,11 @@
+{
+  "stonfiSwapUrl": "https://app.ston.fi/swap?ft=TON&tt=EQB1oXiTnD34HwdH0L1fiWtKg0XWMD-47t8i933VhUeNDsd_&chartVisible=true",
+  "tonRafflesUrl": "https://tonraffles.app/lock/EQB1oXiTnD34HwdH0L1fiWtKg0XWMD-47t8i933VhUeNDsd_",
+  "telegramBotUrl": "https://t.me/tsunonton_bot",
+  "telegramChatUrl": "https://t.me/tsunonton_chat",
+  "dexscreenerUrl": "https://dexscreener.com/ton/EQB1oXiTnD34HwdH0L1fiWtKg0XWMD-47t8i933VhUeNDsd_",
+  "tonviewerUrl": "https://tonviewer.com/EQB1oXiTnD34HwdH0L1fiWtKg0XWMD-47t8i933VhUeNDsd_",
+  "notifyState": "pre",
+  "websiteUrl": "https://tsunonton.com",
+  "jettonMasterAddress": "EQB1oXiTnD34HwdH0L1fiWtKg0XWMD-47t8i933VhUeNDsd_"
+}

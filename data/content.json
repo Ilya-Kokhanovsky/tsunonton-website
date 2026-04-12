@@ -1,0 +1,63 @@
+{
+  "tokenomics": {
+    "stats": [
+      { "label": "Total Supply", "value": "1,000,000,000 $TSUN" },
+      { "label": "Tax", "value": "0%" },
+      { "label": "LP", "value": "Locked via TonRaffles ✅" },
+      { "label": "Contract", "value": "Renounced ✅" }
+    ],
+    "contract": "EQB1oXiTnD34HwdH0L1fiWtKg0XWMD-47t8i933VhUeNDsd_"
+  },
+  "roadmap": [
+    {
+      "phase": "Phase 1",
+      "status": "Completed ✅",
+      "title": "Genesis",
+      "items": [
+        "Token launch on STON.fi (verify on-chain)",
+        "Liquidity lock reported via TonRaffles",
+        "Renounced contract status reported",
+        "Community launch with transparent verification"
+      ]
+    },
+    {
+      "phase": "Phase 2",
+      "status": "In Development 🔄",
+      "title": "Clicker Game",
+      "items": [
+        "Telegram Mini-App in active development",
+        "Daily tasks and referral tracking",
+        "Tonkeeper verification in progress",
+        "CoinMarketCap and CoinGecko applications drafted"
+      ]
+    },
+    {
+      "phase": "Phase 3",
+      "status": "Planned 🎯",
+      "title": "Ecosystem",
+      "items": [
+        "Airdrop and CEX listing targets in Q3-Q4 2026",
+        "NFT collection launch target",
+        "Cross-chain expansion exploration"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is Tsunonton ($TSUN)?",
+      "answer": "Tsunonton is an anime-themed TON community token and GameFi concept. In-game points are separate from $TSUN and have no monetary value."
+    },
+    {
+      "question": "Can I earn guaranteed profit?",
+      "answer": "No. There are no guarantees of profit or rewards. Crypto assets are volatile and can lose value quickly."
+    },
+    {
+      "question": "Where can I verify contract and liquidity?",
+      "answer": "Use Tonviewer for contract checks and TonRaffles for lock records. Always verify links and addresses manually."
+    },
+    {
+      "question": "How can I follow game updates?",
+      "answer": "Follow @tsunonton and @tsunonton_bot on Telegram. The clicker game is still under development."
+    }
+  ]
+}
