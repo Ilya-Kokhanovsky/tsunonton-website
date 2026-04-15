@@ -8,7 +8,7 @@ const data = {
       "@id": "https://tsunonton.com/#organization",
       "name": "Tsunonton",
       "url": "https://tsunonton.com/",
-      "logo": "https://tsunonton.com/static/img/favicon.ico",
+      "logo": "https://tsunonton.com/assets/images/icons/icon-512.png",
       "sameAs": [
         "https://t.me/tsunonton",
         "https://t.me/tsunonton_bot",
@@ -20,8 +20,8 @@ const data = {
       "@type": "WebPage",
       "@id": "https://tsunonton.com/#webpage",
       "url": "https://tsunonton.com/",
-      "name": "Tsunonton Token | TON GameFi Anime Telegram Clicker 2026",
-      "description": "Play Tsunonton ($TSUN), the TON GameFi anime clicker. Tap in Telegram, earn points, and join the community.",
+      "name": "$TSUN (Tsunonton) - Anime GameFi Token on TON",
+      "description": "$TSUN (Tsunonton) is an anime-themed GameFi token on TON Blockchain. Buy on STON.fi, play the Telegram clicker, and explore tokenomics, roadmap, and community updates.",
       "isPartOf": {
         "@id": "https://tsunonton.com/#organization"
       },
