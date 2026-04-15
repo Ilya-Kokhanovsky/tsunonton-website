@@ -21,20 +21,19 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
-  <link rel="preconnect" href="https://api.ston.fi" crossorigin />
-  <link rel="preconnect" href="https://tonapi.io" crossorigin />
   <link rel="dns-prefetch" href="//fonts.googleapis.com" />
   <link rel="dns-prefetch" href="//fonts.gstatic.com" />
   <link rel="dns-prefetch" href="//cdn.jsdelivr.net" />
   <link rel="dns-prefetch" href="//api.ston.fi" />
   <link rel="dns-prefetch" href="//tonapi.io" />
   <link rel="preload" href="./static/img/mascot-image.webp" as="image" fetchpriority="high" imagesizes="(max-width: 768px) 88vw, 30rem" />
-  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Manrope:wght@400;500;600;700&family=Noto+Sans+JP:wght@500;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Manrope:wght@400;500;600;700&family=Noto+Sans+JP:wght@500;700&family=JetBrains+Mono:wght@400;500;600&display=swap" as="style" />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Manrope:wght@400;500;600;700&family=Noto+Sans+JP:wght@500;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'" />
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Manrope:wght@400;500;600;700&family=Noto+Sans+JP:wght@500;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" /></noscript>
 
     <script src="./dist/assets/theme-preload.min.js"></script>
 
     <link rel="modulepreload" href="./dist/assets/index.min.js" />
-    <link rel="preload" href="./dist/assets/vendor/lucide.min.js" as="script" />
     <link rel="preload" href="./dist/assets/index.min.css" as="style" />
     <link rel="stylesheet" href="./dist/assets/index.min.css" />
     <link rel="preload" href="./dist/assets/scroll-progress.min.css" as="style" />
@@ -211,9 +210,12 @@
                   class="mascot-img"
                   src="static/img/mascot-image.webp"
                   alt="Tsunonton Mascot"
+                  width="1080"
+                  height="1080"
                   loading="eager"
                   decoding="async"
                   fetchpriority="high"
+                  sizes="(max-width: 768px) 88vw, 30rem"
                   data-i18n-attr="alt"
                   data-i18n-attr-content="indexV2.hero.mascotAlt" />
               </div>
@@ -1027,17 +1029,17 @@
       <p class="lang-picker__title" data-i18n="language.selectorTitle">Choose Language</p>
       <div class="lang-picker__options" role="group" aria-label="Language options">
         <button class="lang-picker__option" type="button" data-lang-code="en" aria-pressed="false">
-          <img class="lang-picker__flag" src="./assets/images/icons/flags/gb.svg" alt="" loading="lazy" decoding="async" fetchpriority="low" aria-hidden="true" />
+          <img class="lang-picker__flag" src="./assets/images/icons/flags/gb.svg" alt="" width="24" height="18" loading="lazy" decoding="async" fetchpriority="low" aria-hidden="true" />
           <span class="lang-picker__name" data-i18n="languages.en">English</span>
           <span class="lang-picker__code" aria-hidden="true">EN</span>
         </button>
         <button class="lang-picker__option" type="button" data-lang-code="ru" aria-pressed="false">
-          <img class="lang-picker__flag" src="./assets/images/icons/flags/ru.svg" alt="" loading="lazy" decoding="async" fetchpriority="low" aria-hidden="true" />
+          <img class="lang-picker__flag" src="./assets/images/icons/flags/ru.svg" alt="" width="24" height="18" loading="lazy" decoding="async" fetchpriority="low" aria-hidden="true" />
           <span class="lang-picker__name" data-i18n="languages.ru">Русский</span>
           <span class="lang-picker__code" aria-hidden="true">RU</span>
         </button>
         <button class="lang-picker__option" type="button" data-lang-code="pl" aria-pressed="false">
-          <img class="lang-picker__flag" src="./assets/images/icons/flags/pl.svg" alt="" loading="lazy" decoding="async" fetchpriority="low" aria-hidden="true" />
+          <img class="lang-picker__flag" src="./assets/images/icons/flags/pl.svg" alt="" width="24" height="18" loading="lazy" decoding="async" fetchpriority="low" aria-hidden="true" />
           <span class="lang-picker__name" data-i18n="languages.pl">Polski</span>
           <span class="lang-picker__code" aria-hidden="true">PL</span>
         </button>
@@ -1052,9 +1054,7 @@
   </div>
     <script src="./static/js/schema/index.js" defer></script>
     <script src="./dist/assets/vendor/lucide.min.js" defer></script>
-    <script src="./dist/assets/vendor/chart.min.js" defer></script>
     <script type="module" src="./dist/assets/index.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.2/lib/anime.min.js" async crossorigin="anonymous" fetchpriority="low"></script>
     <script src="./dist/assets/scroll-progress.min.js" defer></script>
 
 </body>
