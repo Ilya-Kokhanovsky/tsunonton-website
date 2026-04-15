@@ -424,7 +424,8 @@
         "You're such a baka...",
         "N-not like I missed you or anything!",
         "Hold $TSUN? I-I guess that's okay."
-      ]
+      ],
+      "mascotTapCounterTemplate": "You tapped me again. I'm not keeping count. It's {{count}}."
     },
     "about": {
       "label": "// About",

@@ -442,7 +442,8 @@
         "Taki z ciebie baka...",
         "N-nie to, żebym tęskniła czy coś!",
         "Trzymać $TSUN? C-czyli chyba okej."
-      ]
+      ],
+      "mascotTapCounterTemplate": "Znowu mnie tapnąłeś. Wcale nie liczę. To {{count}}."
     },
     "about": {
       "label": "// O projekcie",
