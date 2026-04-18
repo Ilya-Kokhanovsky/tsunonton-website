@@ -98,7 +98,7 @@ const data = {
           "name": "When does the clicker game launch and how do I qualify for the airdrop?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The clicker mini-app is in active development during Phase 2. Launch is announced through @tsunonton_bot, and Phase 3 airdrop eligibility is based on leaderboard position during the clicker phase."
+            "text": "The clicker mini-app is in active development during Phase 2. Launch is announced through the official Telegram bot, and Phase 3 airdrop eligibility is based on leaderboard position during the clicker phase."
           }
         },
         {

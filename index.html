@@ -10,9 +10,9 @@
   <meta name="theme-color" media="(prefers-color-scheme: light)" content="#fff7fc" />
   <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#07070f" />
   <title>$TSUN  -  Anime Tsundere GameFi Token on TON</title>
-  <meta name="description" content="$TSUN is an anime tsundere GameFi token on TON Blockchain. Play the clicker game, earn rewards, and join the community. 0% tax, locked LP, renounced contract." />
+  <meta name="description" content="$TSUN is an anime tsundere GameFi token on TON Blockchain. Collect cards, trade with friends, fuse duplicates, and earn airdrop rewards. 0% tax, locked LP, renounced contract." />
   <meta property="og:title" content="$TSUN  -  It's not like I want you to hold me... b-baka!" />
-  <meta property="og:description" content="Anime tsundere GameFi token on TON Blockchain. 0% tax. Clicker game coming soon." />
+  <meta property="og:description" content="Anime tsundere card collection game on TON Blockchain. Collect rare Tsundere Waifu cards and compete for airdrop rewards." />
   <meta property="og:url" content="https://tsunonton.com" data-config-content="websiteUrl" />
   <meta name="twitter:card" content="summary_large_image" />
   <link rel="icon" href="./assets/images/icons/favicon.ico" sizes="any" />
@@ -172,7 +172,8 @@
               <a href="#"
                  target="_blank" rel="noopener noreferrer"
                  class="btn btn--ghost btn--lg" data-config-href="telegramBotUrl">
-                <span data-i18n="indexV2.hero.playCta">Play Clicker &rarr;</span>
+                <span data-i18n="indexV2.hero.playCta">Play Card Game</span>
+                <i data-lucide="arrow-right" class="btn__icon" aria-hidden="true"></i>
               </a>
             </div>
 
@@ -303,15 +304,15 @@
         <div class="about__grid reveal-stagger">
 
           <article class="card">
-            <span class="feature-card__icon" aria-hidden="true"><i data-lucide="gamepad-2"></i></span>
-            <h3 class="feature-card__title" data-i18n="indexV2.about.card1Title">GameFi Clicker</h3>
-            <p class="feature-card__text" data-i18n="indexV2.about.card1Text">Tap to earn $TSUN in the Telegram mini-app. Climb the leaderboard, complete missions, and qualify for the airdrop  -  all without leaving Telegram.</p>
+            <span class="feature-card__icon" aria-hidden="true"><i data-lucide="package"></i></span>
+            <h3 class="feature-card__title" data-i18n="indexV2.about.card1Title">Card Collection Game</h3>
+            <p class="feature-card__text" data-i18n="indexV2.about.card1Text">Open card packs, collect Tsundere Waifu cards, fuse duplicates into rarer editions, and trade with other players. All inside Telegram. Top collectors qualify for the $TSUN airdrop.</p>
           </article>
 
           <article class="card">
             <span class="feature-card__icon" aria-hidden="true"><i data-lucide="shield-check"></i></span>
             <h3 class="feature-card__title" data-i18n="indexV2.about.card2Title">Secure by Design</h3>
-            <p class="feature-card__text" data-i18n="indexV2.about.card2Text">Contract renounced. Liquidity locked via TonRaffles. Zero percent tax on all buys and sells. No hidden wallets. No funny business.</p>
+            <p class="feature-card__text" data-i18n-html="indexV2.about.card2Text">Contract renounced. Liquidity locked via <a href="#" data-config-href="tonRafflesUrl" class="phase-card__item-link" target="_blank" rel="noopener noreferrer">TonRaffles</a>. Zero percent tax on all buys and sells. No hidden wallets. No funny business.</p>
           </article>
 
           <article class="card">
@@ -346,70 +347,61 @@
     <div class="divider"></div>
     <section class="section game" id="game">
       <div class="container">
-
         <header class="section__header section__header--center reveal">
           <p class="section__label" data-i18n="indexV2.game.label">// Game</p>
-          <h2 class="section__title" data-i18n="indexV2.game.title">Tsunonton Clicker</h2>
-          <p class="section__sub section__sub--spaced" data-i18n="indexV2.game.subtitle">Tap Tsun-chan inside Telegram, earn Tsun Points, climb the leaderboard. Top players qualify for the Phase 3 airdrop.</p>
-          <span class="badge">
-            <span class="badge__dot"></span>
-            <span data-i18n="indexV2.game.badge">Telegram Mini-App &mdash; Coming Soon</span>
-          </span>
+          <h2 class="section__title" data-i18n="indexV2.game.title">Card Collection &amp; Trading</h2>
+          <p class="section__sub section__sub--spaced" data-i18n="indexV2.game.subtitle">Collect rare Tsundere Waifu cards, craft Legendary editions, trade on the marketplace, win auctions, and compete on the leaderboard. The rarer your collection - the higher your airdrop rank.</p>
+          <div style="margin: 2.5rem 0 1rem 0;">
+            <span class="badge">
+              <span class="badge__dot"></span>
+              <span data-i18n="indexV2.game.badge">Telegram Mini-App &mdash; Coming Soon</span>
+            </span>
+          </div>
         </header>
-
         <div class="game__features reveal-stagger">
-
           <article class="card game__feature-card">
-            <span class="feature-card__icon" aria-hidden="true"><i data-lucide="mouse-pointer-click"></i></span>
-            <h3 class="feature-card__title" data-i18n="indexV2.game.card1Title">Tap &amp; Earn</h3>
-            <p class="feature-card__text" data-i18n="indexV2.game.card1Text">Open the mini-app in Telegram and tap the tsundere mascot to collect Tsun Points. The more you tap, the higher you rank.</p>
+            <span class="feature-card__icon" aria-hidden="true"><i data-lucide="ticket"></i></span>
+            <h3 class="feature-card__title" data-i18n="indexV2.game.card1Title">Open Card Packs</h3>
+            <p class="feature-card__text" data-i18n="indexV2.game.card1Text">Collect daily resources and open Card Scrolls to discover Tsundere Waifu cards. Each scroll reveals a random card - from Common to Legendary - with provably fair randomness.</p>
           </article>
-
           <article class="card game__feature-card">
-            <span class="feature-card__icon" aria-hidden="true"><i data-lucide="trending-up"></i></span>
-            <h3 class="feature-card__title" data-i18n="indexV2.game.card2Title">Upgrade Stats</h3>
-            <p class="feature-card__text" data-i18n="indexV2.game.card2Text">Spend Tsun Points on upgrades &mdash; boost your tap power, energy regeneration, and passive income rate.</p>
+            <span class="feature-card__icon" aria-hidden="true"><i data-lucide="flame"></i></span>
+            <h3 class="feature-card__title" data-i18n="indexV2.game.card2Title">Fuse &amp; Upgrade</h3>
+            <p class="feature-card__text" data-i18n="indexV2.game.card2Text">Two crafting paths: the safe route (collect 10 identical cards for a guaranteed upgrade) or the risky route (combine five cards of the same rarity for a chance at the tier above). The ultimate Legend requires both strategy and patience.</p>
           </article>
-
           <article class="card game__feature-card">
-            <span class="feature-card__icon" aria-hidden="true"><i data-lucide="list-checks"></i></span>
-            <h3 class="feature-card__title" data-i18n="indexV2.game.card3Title">Complete Quests</h3>
-            <p class="feature-card__text" data-i18n="indexV2.game.card3Text">Daily and weekly quests give bonus points and boost your leaderboard position before Phase 3 begins.</p>
+            <span class="feature-card__icon" aria-hidden="true"><i data-lucide="arrow-left-right"></i></span>
+            <h3 class="feature-card__title" data-i18n="indexV2.game.card3Title">Trade with Others</h3>
+            <p class="feature-card__text" data-i18n="indexV2.game.card3Text">Buy and sell cards on the in-game marketplace, bid on rare cards at real-time auctions, or gift duplicates to friends. A live player-driven economy where your collection has real value - and the rarest cards can be minted as NFTs on TON.</p>
           </article>
-
         </div>
-
         <div class="game__screens reveal">
-          <div class="game__screen-placeholder" aria-label="Game screenshot placeholder 1" data-i18n-attr="aria-label" data-i18n-attr-content="indexV2.game.screen1Aria">
-            <i data-lucide="smartphone" class="game__screen-icon" aria-hidden="true"></i>
-            <p class="game__screen-label" data-i18n="indexV2.game.screen1Label">Tap Screen</p>
+          <div class="game__screen-placeholder" aria-label="Card pack opening preview">
+            <i data-lucide="gift" class="game__screen-icon" aria-hidden="true"></i>
+            <p class="game__screen-label">Card Packs</p>
             <p class="game__screen-soon" data-i18n="indexV2.game.comingSoon">Coming Soon</p>
           </div>
-          <div class="game__screen-placeholder game__screen-placeholder--center" aria-label="Game screenshot placeholder 2" data-i18n-attr="aria-label" data-i18n-attr-content="indexV2.game.screen2Aria">
-            <i data-lucide="smartphone" class="game__screen-icon" aria-hidden="true"></i>
-            <p class="game__screen-label" data-i18n="indexV2.game.screen2Label">Upgrade Screen</p>
+          <div class="game__screen-placeholder game__screen-placeholder--center" aria-label="Card collection preview">
+            <i data-lucide="layout-grid" class="game__screen-icon" aria-hidden="true"></i>
+            <p class="game__screen-label">Card Collection</p>
             <p class="game__screen-soon" data-i18n="indexV2.game.comingSoon">Coming Soon</p>
           </div>
-          <div class="game__screen-placeholder" aria-label="Game screenshot placeholder 3" data-i18n-attr="aria-label" data-i18n-attr-content="indexV2.game.screen3Aria">
-            <i data-lucide="smartphone" class="game__screen-icon" aria-hidden="true"></i>
-            <p class="game__screen-label" data-i18n="indexV2.game.screen3Label">Leaderboard</p>
+          <div class="game__screen-placeholder" aria-label="Crafting preview">
+            <i data-lucide="hammer" class="game__screen-icon" aria-hidden="true"></i>
+            <p class="game__screen-label">Crafting Table</p>
             <p class="game__screen-soon" data-i18n="indexV2.game.comingSoon">Coming Soon</p>
           </div>
         </div>
-
         <div class="section__cta-wrap reveal">
-          <a href="#"
-             target="_blank" rel="noopener noreferrer"
-             class="btn btn--primary btn--lg"
-             data-config-href="telegramBotUrl">
-            <span data-i18n="indexV2.game.cta">Open in Telegram &rarr;</span>
+          <a href="#" target="_blank" rel="noopener noreferrer" class="btn btn--primary btn--lg" data-config-href="telegramBotUrl">
+            <span data-i18n="indexV2.game.cta">Open in Telegram</span>
+            <i data-lucide="arrow-right" class="btn__icon" aria-hidden="true"></i>
           </a>
           <p class="game__disclaimer">
             <i data-lucide="info" aria-hidden="true"></i>
-            <span data-i18n="indexV2.game.disclaimer">Tsun Points are in-game only and have no monetary value. Airdrop eligibility details will be announced before Phase 3.</span>
+            <span data-i18n="indexV2.game.disclaimer">In-game resources and cards have no monetary value. NFT minting is optional and at the player's own cost. Airdrop eligibility is based on collection score and leaderboard rank at Phase 2 close.</span>
           </p>
         </div>
-
       </div>
     </section>
 
@@ -430,16 +422,18 @@
             <h3 class="feature-card__title" data-i18n="indexV2.community.card1Title">Telegram Chat</h3>
             <p class="feature-card__text" data-i18n="indexV2.community.card1Text">The main hub. Announcements, memes, alpha, and Tsun-chan losing her temper. Join before she notices you're late.</p>
             <a href="#" data-config-href="telegramChatUrl" class="btn btn--ghost" target="_blank" rel="noopener noreferrer">
-              <span data-i18n="indexV2.community.card1Cta">Join Community &rarr;</span>
+              <span data-i18n="indexV2.community.card1Cta">Join Community</span>
+              <i data-lucide="arrow-right" class="btn__icon" aria-hidden="true"></i>
             </a>
           </article>
 
           <article class="card community__card">
             <span class="feature-card__icon" aria-hidden="true"><i data-lucide="bot"></i></span>
-            <h3 class="feature-card__title">@tsunonton_bot</h3>
-            <p class="feature-card__text" data-i18n="indexV2.community.card2Text">Your personal gateway. Get notified when the clicker launches, track your stats, and receive airdrop updates directly in Telegram.</p>
+            <h3 class="feature-card__title"><a href="#" data-config-href="telegramBotUrl" target="_blank" rel="noopener noreferrer">@tsunonton_bot</a></h3>
+            <p class="feature-card__text" data-i18n="indexV2.community.card2Text">Your personal gateway. Get notified when the card game launches, track your collection, and receive airdrop updates directly in Telegram.</p>
             <a href="#" data-config-href="telegramBotUrl" class="btn btn--ghost" target="_blank" rel="noopener noreferrer">
-              <span data-i18n="indexV2.community.card2Cta">Open Bot &rarr;</span>
+              <span data-i18n="indexV2.community.card2Cta">Open Bot</span>
+              <i data-lucide="arrow-right" class="btn__icon" aria-hidden="true"></i>
             </a>
           </article>
 
@@ -469,7 +463,11 @@
 
         <header class="reveal section__header section__header--center">
           <p class="section__label" data-i18n="indexV2.roadmap.label">// Roadmap</p>
-          <h2 class="section__title" data-i18n="indexV2.roadmap.title">The plan. No fluff.</h2>
+          <h2 class="section__title" style="display: flex; align-items: center; justify-content: center; gap: 0.4em;">
+            <i data-lucide="rocket" class="section__title-icon" aria-hidden="true"></i>
+            <span data-i18n="indexV2.roadmap.title">The plan. No fluff.</span>
+            <i data-lucide="sparkles" class="section__title-icon" aria-hidden="true"></i>
+          </h2>
         </header>
 
         <div class="roadmap__timeline">
@@ -477,15 +475,30 @@
           <div class="phase-card phase-card--done reveal">
             <div class="phase-card__inner">
               <div class="phase-card__header">
-                <h3 class="phase-card__title" data-i18n="indexV2.roadmap.phase1Title">Phase 1  -  Launch</h3>
-                <span class="phase-pill phase-pill--done"><i data-lucide="check-circle-2" class="phase-pill__icon" aria-hidden="true"></i><span data-i18n="indexV2.roadmap.phase1Status">Done</span></span>
+                <h3 class="phase-card__title"><i data-lucide="rocket" class="phase-card__title-icon" aria-hidden="true"></i><span data-i18n="indexV2.roadmap.phase1Title">Phase 1  -  Launch</span></h3>
+                <span class="phase-pill phase-pill--done"><i data-lucide="circle-check" class="phase-pill__icon" aria-hidden="true"></i><span data-i18n="indexV2.roadmap.phase1Status">Done (Q1-Q2 2026)</span></span>
               </div>
               <ul class="phase-card__items">
-                <li data-i18n="indexV2.roadmap.phase1Item1">Token creation &amp; deployment on TON</li>
-                <li data-i18n="indexV2.roadmap.phase1Item2">STON.fi DEX listing</li>
-                <li data-i18n="indexV2.roadmap.phase1Item3">Liquidity pool locked via TonRaffles</li>
-                <li data-i18n="indexV2.roadmap.phase1Item4">Contract renounced</li>
-                <li data-i18n="indexV2.roadmap.phase1Item5">Community launch on Telegram</li>
+                <li>
+                  <i data-lucide="coins" class="phase-card__item-icon phase-card__item-icon--done" aria-hidden="true"></i>
+                  <span data-i18n="indexV2.roadmap.phase1Item1">Token creation &amp; deployment on TON</span>
+                </li>
+                <li>
+                  <i data-lucide="trending-up" class="phase-card__item-icon phase-card__item-icon--done" aria-hidden="true"></i>
+                  <span data-i18n="indexV2.roadmap.phase1Item2">STON.fi DEX listing</span>
+                </li>
+                <li>
+                  <i data-lucide="lock" class="phase-card__item-icon phase-card__item-icon--done" aria-hidden="true"></i>
+                  <span data-i18n-html="indexV2.roadmap.phase1Item3">Liquidity pool locked via <a href="#" data-config-href="tonRafflesUrl" class="phase-card__item-link" target="_blank" rel="noopener noreferrer">TonRaffles</a></span>
+                </li>
+                <li>
+                  <i data-lucide="shield-check" class="phase-card__item-icon phase-card__item-icon--done" aria-hidden="true"></i>
+                  <span data-i18n="indexV2.roadmap.phase1Item4">Contract renounced</span>
+                </li>
+                <li>
+                  <i data-lucide="users" class="phase-card__item-icon phase-card__item-icon--done" aria-hidden="true"></i>
+                  <span data-i18n="indexV2.roadmap.phase1Item5">Community launch on Telegram</span>
+                </li>
               </ul>
             </div>
           </div>
@@ -493,20 +506,41 @@
           <div class="phase-card phase-card--active reveal">
             <div class="phase-card__inner">
               <div class="phase-card__header">
-                <h3 class="phase-card__title" data-i18n="indexV2.roadmap.phase2Title">Phase 2  -  GameFi</h3>
-                <span class="phase-pill phase-pill--active"><i data-lucide="zap" class="phase-pill__icon" aria-hidden="true"></i><span data-i18n="indexV2.roadmap.phase2Status">In Progress</span></span>
+                <h3 class="phase-card__title"><i data-lucide="gamepad-2" class="phase-card__title-icon" aria-hidden="true"></i><span data-i18n="indexV2.roadmap.phase2Title">Phase 2  -  GameFi</span></h3>
+                <span class="phase-pill phase-pill--active"><i data-lucide="zap" class="phase-pill__icon" aria-hidden="true"></i><span data-i18n="indexV2.roadmap.phase2Status">In Progress (Q3-Q4 2026)</span></span>
               </div>
               <ul class="phase-card__items">
-                <li data-i18n="indexV2.roadmap.phase2Item1">Clicker mini-app development</li>
-                <li data-i18n="indexV2.roadmap.phase2Item2">Telegram bot integration (@tsunonton_bot)</li>
-                <li data-i18n="indexV2.roadmap.phase2Item3">Leaderboard &amp; ranking system</li>
-                <li data-i18n="indexV2.roadmap.phase2Item4">Closed beta with community testers</li>
+                
+                <li>
+                  <i data-lucide="circle-check" class="phase-card__item-icon phase-card__item-icon--done" aria-hidden="true"></i>
+                  <span data-i18n="indexV2.roadmap.phase2Item1">MVP: базовая гача, ресурсы, коллекция, стрики и квесты</span>
+                </li>
+                
+                <li>
+                  <i data-lucide="bot" class="phase-card__item-icon phase-card__item-icon--active" aria-hidden="true"></i>
+                  <span data-i18n="indexV2.roadmap.phase2Item2">Маркетплейс, подарки и дуэли (P2P торговля)</span>
+                </li>
+                
+                <li>
+                  <i data-lucide="hammer" class="phase-card__item-icon phase-card__item-icon--active" aria-hidden="true"></i>
+                  <span data-i18n="indexV2.roadmap.phase2Item3">Аукционы с антиснайпером + рискованный крафт</span>
+                </li>
+                
+                <li>
+                  <i data-lucide="sparkles" class="phase-card__item-icon phase-card__item-icon--pending" aria-hidden="true"></i>
+                  <span data-i18n="indexV2.roadmap.phase2Item4">NFT минт Epic/Legend карт и интеграция Getgems</span>
+                </li>
+                
+                <li>
+                  <i data-lucide="users" class="phase-card__item-icon phase-card__item-icon--pending" aria-hidden="true"></i>
+                  <span data-i18n="indexV2.roadmap.phase2Item5">Клановая система и сезонные события</span>
+                </li>
               </ul>
               <div class="phase-card__progress" aria-label="Phase 2 progress">
-                <div class="phase-card__progress-track" role="progressbar" aria-label="Phase 2 completion" aria-valuemin="0" aria-valuemax="100" aria-valuenow="45">
-                  <div class="phase-card__progress-bar phase-card__progress-bar--45"></div>
+                <div class="phase-card__progress-track" role="progressbar" aria-label="Phase 2 completion" aria-valuemin="0" aria-valuemax="100" aria-valuenow="40">
+                  <div class="phase-card__progress-bar phase-card__progress-bar--40"></div>
                 </div>
-                <p class="phase-card__progress-label" data-i18n="indexV2.roadmap.phase2ProgressLabel">45% complete  -  clicker in active development</p>
+                <p class="phase-card__progress-label" data-i18n="indexV2.roadmap.phase2ProgressLabel">40% завершено — аукционы и крафт в активной разработке</p>
               </div>
             </div>
           </div>
@@ -514,14 +548,30 @@
           <div class="phase-card phase-card--upcoming reveal">
             <div class="phase-card__inner">
               <div class="phase-card__header">
-                <h3 class="phase-card__title" data-i18n="indexV2.roadmap.phase3Title">Phase 3  -  Expansion</h3>
-                <span class="phase-pill phase-pill--upcoming" data-i18n="indexV2.roadmap.phase3Status">Q3-Q4 2026</span>
+                <h3 class="phase-card__title"><i data-lucide="sparkles" class="phase-card__title-icon" aria-hidden="true"></i><span data-i18n="indexV2.roadmap.phase3Title">Phase 3  -  Expansion</span></h3>
+                <span class="phase-pill phase-pill--upcoming" data-i18n="indexV2.roadmap.phase3Status">Planned (Q3-Q4 2026)</span>
               </div>
               <ul class="phase-card__items">
-                <li data-i18n="indexV2.roadmap.phase3Item1">Airdrop distribution to top clicker players</li>
-                <li data-i18n="indexV2.roadmap.phase3Item2">CEX exchange listings</li>
-                <li data-i18n="indexV2.roadmap.phase3Item3">Ecosystem &amp; partnership expansion</li>
-                <li data-i18n="indexV2.roadmap.phase3Item4">Community governance proposals</li>
+                <li>
+                  <i data-lucide="gift" class="phase-card__item-icon phase-card__item-icon--pending" aria-hidden="true"></i>
+                  <span data-i18n="indexV2.roadmap.phase3Item1">Snapshot and airdrop distribution to Top-1000 collectors</span>
+                </li>
+                <li>
+                  <i data-lucide="building" class="phase-card__item-icon phase-card__item-icon--pending" aria-hidden="true"></i>
+                  <span data-i18n="indexV2.roadmap.phase3Item2">Application submissions to 3 CEX exchanges (Tier-2/Tier-3)</span>
+                </li>
+                <li>
+                  <i data-lucide="handshake" class="phase-card__item-icon phase-card__item-icon--pending" aria-hidden="true"></i>
+                  <span data-i18n="indexV2.roadmap.phase3Item3">Establish 2-3 partnerships with TON ecosystem projects</span>
+                </li>
+                <li>
+                  <i data-lucide="users" class="phase-card__item-icon phase-card__item-icon--pending" aria-hidden="true"></i>
+                  <span data-i18n="indexV2.roadmap.phase3Item4">Launch community governance proposals for future upgrades</span>
+                </li>
+                <li>
+                  <i data-lucide="sparkles" class="phase-card__item-icon phase-card__item-icon--pending" aria-hidden="true"></i>
+                  <span data-i18n="indexV2.roadmap.phase3Item5">Introduction of holder bonus multipliers for Card Game Phase 2</span>
+                </li>
               </ul>
               <p class="phase-card__urgency">
                 <i data-lucide="timer" aria-hidden="true"></i>
@@ -530,6 +580,32 @@
             </div>
           </div>
 
+        </div>
+
+        <div class="roadmap__beyond reveal">
+          <p class="section__label roadmap__beyond-label" data-i18n="indexV2.roadmap.beyondLabel">// Beyond the Roadmap</p>
+          <div class="roadmap__beyond-tags">
+            <span class="roadmap__beyond-badge">
+              <i data-lucide="gem" aria-hidden="true"></i>
+              <span data-i18n="indexV2.roadmap.beyondItem1">NFT Gacha: Tsundere Waifu Cards</span>
+            </span>
+            <span class="roadmap__beyond-badge">
+              <i data-lucide="handshake" aria-hidden="true"></i>
+              <span data-i18n="indexV2.roadmap.beyondItem2">Cross-TON Mascot Collabs</span>
+            </span>
+            <span class="roadmap__beyond-badge">
+              <i data-lucide="shield-plus" aria-hidden="true"></i>
+              <span data-i18n="indexV2.roadmap.beyondItem3">Staking Mechanism Research</span>
+            </span>
+            <span class="roadmap__beyond-badge">
+              <i data-lucide="sparkles" aria-hidden="true"></i>
+              <span data-i18n="indexV2.roadmap.beyondItem4">Anime Card Packs</span>
+            </span>
+          </div>
+          <p class="roadmap__beyond-note">
+            <i data-lucide="info" class="roadmap__beyond-note-icon" aria-hidden="true"></i>
+            <span data-i18n="indexV2.roadmap.beyondNote">Long-term vision items under evaluation. No promises, just possibilities.</span>
+          </p>
         </div>
       </div>
     </section>
@@ -590,17 +666,26 @@
             <div class="tokenomics-exact__legend" role="list" aria-label="Token allocation legend" data-i18n-attr="aria-label" data-i18n-attr-content="indexV2.tokenomics.legendAria">
               <article class="tokenomics-exact__legend-item" role="listitem">
                 <span class="tokenomics-exact__swatch tokenomics-exact__swatch--game" aria-hidden="true"></span>
-                <span class="tokenomics-exact__legend-name" data-i18n="indexV2.tokenomics.legendGame">Game Rewards</span>
+                <div class="tokenomics-exact__legend-name-wrap">
+                  <span class="tokenomics-exact__legend-name" data-i18n="indexV2.tokenomics.legendGame">Game Rewards</span>
+                  <span class="tokenomics-exact__legend-note" data-i18n="indexV2.tokenomics.legendGameNote">Allocated for in-game earnings, leaderboard prizes, and future airdrop campaigns.</span>
+                </div>
                 <span class="tokenomics-exact__legend-value">40%</span>
               </article>
               <article class="tokenomics-exact__legend-item" role="listitem">
                 <span class="tokenomics-exact__swatch tokenomics-exact__swatch--community" aria-hidden="true"></span>
-                <span class="tokenomics-exact__legend-name" data-i18n="indexV2.tokenomics.legendCommunity">Community</span>
+                <div class="tokenomics-exact__legend-name-wrap">
+                  <span class="tokenomics-exact__legend-name" data-i18n="indexV2.tokenomics.legendCommunity">Community</span>
+                  <span class="tokenomics-exact__legend-note" data-i18n="indexV2.tokenomics.legendCommunityNote">Reserved for community initiatives, giveaways, and ecosystem growth.</span>
+                </div>
                 <span class="tokenomics-exact__legend-value">24.4%</span>
               </article>
               <article class="tokenomics-exact__legend-item" role="listitem">
                 <span class="tokenomics-exact__swatch tokenomics-exact__swatch--liquidity" aria-hidden="true"></span>
-                <span class="tokenomics-exact__legend-name" data-i18n="indexV2.tokenomics.legendLiquidity">Liquidity Pools (Live on DEX)</span>
+                <div class="tokenomics-exact__legend-name-wrap">
+                  <span class="tokenomics-exact__legend-name" data-i18n="indexV2.tokenomics.legendLiquidity">Liquidity Pools (Live on DEX)</span>
+                  <span class="tokenomics-exact__legend-note" data-i18n-html="indexV2.tokenomics.legendLiquidityNote">Live on STON.fi DEX. Locked via <a href="#" data-config-href="tonRafflesUrl" target="_blank" rel="noopener noreferrer" class="tokenomics-exact__inline-link">TonRaffles</a>.</span>
+                </div>
                 <span class="tokenomics-exact__legend-value">17.3%</span>
               </article>
               <article class="tokenomics-exact__legend-item" role="listitem">
@@ -617,7 +702,7 @@
           <div class="tokenomics-exact__footer">
             <p class="tokenomics-exact__disclaimer"><span data-i18n="indexV2.tokenomics.disclaimer">Fixed supply. Distribution locked on-chain.</span> <a href="./risk.html" class="tokenomics-exact__risk-link" data-i18n="indexV2.tokenomics.riskLink">Risk Disclaimer</a></p>
             <div class="tokenomics-exact__verify">
-              <!-- DYNAMIC CONFIG UPDATE -->
+              
               <a href="#" data-config-href="tonviewerUrl"
                  target="_blank" rel="noopener noreferrer"
                  class="tokenomics-exact__verify-link">
@@ -665,7 +750,7 @@
           <div class="step-card">
             <p class="step-card__number">03</p>
             <h3 class="step-card__title" data-i18n="indexV2.howToBuy.step3Title">Swap on STON.fi</h3>
-            <!-- DYNAMIC CONFIG UPDATE -->
+            
             <p class="step-card__text" data-i18n-html="indexV2.howToBuy.step3Text">Go to <a href="#" data-config-href="stonfiSwapUrl" target="_blank" rel="noopener noreferrer">STON.fi</a>, paste the contract address, and swap TON for $TSUN. Welcome to the tsundere side.</p>
           </div>
 
@@ -689,7 +774,7 @@
         <div class="notify__state notify__state--pre">
           <header class="section__header section__header--center reveal">
             <p class="section__label" data-i18n="indexV2.notify.preLabel">// Coming Soon</p>
-            <h2 class="section__title" data-i18n="indexV2.notify.preTitle">The clicker is almost ready</h2>
+            <h2 class="section__title" data-i18n="indexV2.notify.preTitle">The Card Game is almost ready</h2>
             <p class="section__sub section__sub--spaced" data-i18n="indexV2.notify.preSubtitle">Don't miss the launch  -  be first on the leaderboard. Phase 3 airdrop rewards early players.</p>
           </header>
 
@@ -697,7 +782,7 @@
             <article class="card notify-card">
               <span class="feature-card__icon" aria-hidden="true"><i data-lucide="bell"></i></span>
               <h3 class="feature-card__title" data-i18n="indexV2.notify.preCardTitle">Get notified at launch</h3>
-              <p class="feature-card__text" data-i18n="indexV2.notify.preCardText">Subscribe to @tsunonton_bot on Telegram. You'll get a message the moment the clicker goes live  -  plus early access bonuses for subscribers.</p>
+              <p class="feature-card__text" data-i18n="indexV2.notify.preCardText">Subscribe to <a href="#" data-config-href="telegramBotUrl" target="_blank" rel="noopener noreferrer">@tsunonton_bot</a> on Telegram. You'll get a message the moment the card game goes live - plus early access bonuses for subscribers.</p>
               <a href="#"
                  target="_blank" rel="noopener noreferrer"
                  class="btn btn--primary btn--lg notify-card__cta"
@@ -712,20 +797,21 @@
         <div class="notify__state notify__state--live">
           <header class="section__header section__header--center reveal">
             <p class="section__label" data-i18n="indexV2.notify.liveLabel">// Now Live</p>
-            <h2 class="section__title" data-i18n="indexV2.notify.liveTitle">The clicker is live</h2>
-            <p class="section__sub section__sub--spaced" data-i18n="indexV2.notify.liveSubtitle">Join thousands of players. Climb the leaderboard. Top players qualify for the Phase 3 airdrop.</p>
+            <h2 class="section__title" data-i18n="indexV2.notify.liveTitle">The Card Game is Live</h2>
+            <p class="section__sub section__sub--spaced" data-i18n="indexV2.notify.liveSubtitle">Join collectors from across the TON ecosystem. Build your card collection, craft Legendary editions, trade on the marketplace. Top players qualify for the Phase 3 airdrop.</p>
           </header>
 
           <div class="notify__wrap reveal">
             <article class="card notify-card">
               <span class="feature-card__icon" aria-hidden="true"><i data-lucide="gamepad-2"></i></span>
-              <h3 class="feature-card__title" data-i18n="indexV2.notify.liveCardTitle">Play now and earn your rank</h3>
-              <p class="feature-card__text" data-i18n="indexV2.notify.liveCardText">Open the Tsunonton Telegram Mini-App, tap Tsun-chan, and start climbing. Airdrop eligibility is based on your leaderboard position at Phase 2 close.</p>
+              <h3 class="feature-card__title" data-i18n="indexV2.notify.liveCardTitle">Start Collecting Now</h3>
+              <p class="feature-card__text" data-i18n="indexV2.notify.liveCardText">Open the Tsunonton Card Collection Game in Telegram, start opening Card Scrolls, craft rare editions, and trade on the marketplace. Airdrop eligibility is based on your collection score and leaderboard position at Phase 2 close.</p>
               <a href="#"
                  target="_blank" rel="noopener noreferrer"
                  class="btn btn--primary btn--lg notify-card__cta"
                  data-config-href="telegramBotUrl">
-                <span data-i18n="indexV2.notify.liveCardCta">Play in Telegram Now &rarr;</span>
+                <span data-i18n="indexV2.notify.liveCardCta">Play in Telegram Now</span>
+                <i data-lucide="arrow-right" class="btn__icon" aria-hidden="true"></i>
               </a>
               <p class="notify-card__note" data-i18n="indexV2.notify.liveCardNote">Free to play. No purchase required.</p>
             </article>
@@ -822,7 +908,7 @@
             </button>
             <div class="faq-item__body">
               <div class="faq-item__content">
-                <p class="faq-item__text" data-i18n-html="indexV2.faq.a1">Tsun On TON ($TSUN) is an anime-themed GameFi and clicker project on the <strong>TON blockchain</strong>. By interacting with our Telegram bot, you can collect in-game points while joining the community. In-game points are separate from $TSUN and have no financial value.</p>
+                <p class="faq-item__text" data-i18n-html="indexV2.faq.a1">Tsun On TON ($TSUN) is an anime-themed GameFi project on the <strong>TON blockchain</strong> built around a Card Collection Game. Open Card Scrolls to collect Tsundere Waifu cards, craft Legendary editions, trade on the marketplace, bid at auctions, and compete for leaderboard rewards. Top collectors qualify for the Phase 3 $TSUN airdrop. In-game resources and cards have no monetary value.</p>
               </div>
             </div>
           </div>
@@ -834,7 +920,7 @@
             </button>
             <div class="faq-item__body">
               <div class="faq-item__content">
-                <p class="faq-item__text" data-i18n="indexV2.faq.a2">The contract is renounced  -  meaning no one can change the code. Liquidity is locked via TonRaffles. There's 0% tax. These are standard safety measures. That said, $TSUN is a meme token and all cryptocurrency carries risk. Always do your own research.</p>
+                <p class="faq-item__text" data-i18n-html="indexV2.faq.a2">The contract is renounced  -  meaning no one can change the code. Liquidity is locked via <a href="#" data-config-href="tonRafflesUrl" target="_blank" rel="noopener noreferrer" class="faq-item__link">TonRaffles</a>. There's 0% tax. These are standard safety measures. That said, $TSUN is a meme token and all cryptocurrency carries risk. Always do your own research.</p>
               </div>
             </div>
           </div>
@@ -846,7 +932,7 @@
             </button>
             <div class="faq-item__body">
               <div class="faq-item__content">
-                <!-- DYNAMIC CONFIG UPDATE -->
+                
                 <p class="faq-item__text" data-i18n-html="indexV2.faq.a3">Community reports indicate the contract is renounced. You can verify current status on <a href="#" data-config-href="tonviewerUrl" target="_blank" rel="noopener noreferrer" class="faq-item__link">Tonviewer</a>. Renounced contracts reduce admin control but do not eliminate risks like bugs, exploits, or market volatility.</p>
               </div>
             </div>
@@ -866,24 +952,24 @@
 
           <div class="faq-item" role="listitem">
             <button class="faq-item__trigger" aria-expanded="false">
-              <span data-i18n="indexV2.faq.q5">When does the clicker game launch and how do I qualify for the airdrop?</span>
+              <span data-i18n="indexV2.faq.q5">When does the card game launch and how do I qualify for the airdrop?</span>
               <span class="faq-item__icon" aria-hidden="true"></span>
             </button>
             <div class="faq-item__body">
               <div class="faq-item__content">
-                <p class="faq-item__text" data-i18n="indexV2.faq.a5">The clicker mini-app is currently in active development (Phase 2). Launch will be announced via @tsunonton_bot  -  subscribe to get notified. Airdrop eligibility in Phase 3 is based on leaderboard position during the clicker phase. The earlier you start playing, the better your position.</p>
+                <p class="faq-item__text" data-i18n="indexV2.faq.a5">The Card Collection Game Mini-App is in active development (Phase 2). Launch will be announced via <a href="#" data-config-href="telegramBotUrl" target="_blank" rel="noopener noreferrer">@tsunonton_bot</a> - subscribe to get notified first and unlock early access bonuses. Airdrop eligibility in Phase 3 is based on your collection score and leaderboard position at Phase 2 close. The earlier you start, the better your rank.</p>
               </div>
             </div>
           </div>
 
           <div class="faq-item" role="listitem">
             <button class="faq-item__trigger" aria-expanded="false">
-              <span data-i18n="indexV2.faq.q6">Do I need to hold $TSUN to play the clicker game?</span>
+              <span data-i18n="indexV2.faq.q6">Do I need to hold $TSUN to play the card game?</span>
               <span class="faq-item__icon" aria-hidden="true"></span>
             </button>
             <div class="faq-item__body">
               <div class="faq-item__content">
-                <p class="faq-item__text" data-i18n="indexV2.faq.a6">No  -  the clicker game is open to everyone in Telegram. You earn in-game points regardless of whether you hold tokens. However, $TSUN holders will receive bonus tap multipliers in later game phases - a direct advantage on the leaderboard. Details and exact values will be announced before Phase 3.</p>
+                <p class="faq-item__text" data-i18n="indexV2.faq.a6">No - the Card Collection Game is free to play for everyone in Telegram. You earn resources daily (Affection, Energy, Shards) through time-based progression and spend them on Card Scrolls. However, $TSUN holders receive improved drop rates for rare cards, early access to new card series, and exclusive seasonal bonuses - a meaningful edge for serious collectors.</p>
               </div>
             </div>
           </div>
@@ -895,7 +981,7 @@
             </button>
             <div class="faq-item__body">
               <div class="faq-item__content">
-                <p class="faq-item__text" data-i18n="indexV2.faq.a7">No. The game is designed for entertainment. Tsun Points are not money and cannot be exchanged for $TSUN or any other asset at this time. Future airdrops are at the team's discretion.</p>
+                <p class="faq-item__text" data-i18n="indexV2.faq.a7">No. The game is designed for entertainment and collection. In-game resources (Affection, Energy, Shards) cannot be exchanged for $TSUN or any real-world asset. Phase 3 airdrops are at the team's discretion and based on leaderboard position - not a guaranteed financial return. Always DYOR.</p>
               </div>
             </div>
           </div>
@@ -974,7 +1060,7 @@
                      <li><a href="#" target="_blank" rel="noopener noreferrer" data-config-href="telegramBotUrl" data-i18n="indexV2.footer.linkBot">Telegram Bot</a></li>
                      <li><a href="#" target="_blank" rel="noopener noreferrer" data-config-href="telegramChatUrl" data-i18n="indexV2.footer.linkCommunity">Telegram Community</a></li>
                 <li><a href="#" target="_blank" rel="noopener noreferrer" data-config-href="websiteUrl" data-i18n="indexV2.footer.linkWebsite">Official Website</a></li>
-                     <!-- DYNAMIC CONFIG UPDATE -->
+                     
                      <li><a href="#" data-config-href="tonviewerUrl" target="_blank" rel="noopener noreferrer" data-i18n="indexV2.footer.linkVerify">Verify on Tonviewer</a></li>
                      <li><a href="#" target="_blank" rel="noopener noreferrer" data-config-href="dexscreenerUrl" data-i18n="indexV2.footer.linkChart">Chart on Dexscreener</a></li>
               </ul>
@@ -1002,7 +1088,17 @@
       </div>
 
       
-      <p class="footer__legal-min">18+ • Cryptocurrency investments carry significant risk • Not financial advice • DYOR</p>
+      <p
+        class="footer__legal-min"
+        aria-label="18 plus. Cryptocurrency investments carry significant risk. Not financial advice. Do your own research.">
+        <span class="footer__legal-item">18+</span>
+        <i data-lucide="dot" class="footer__legal-separator" aria-hidden="true"></i>
+        <span class="footer__legal-item">Cryptocurrency investments carry significant risk</span>
+        <i data-lucide="dot" class="footer__legal-separator" aria-hidden="true"></i>
+        <span class="footer__legal-item">Not financial advice</span>
+        <i data-lucide="dot" class="footer__legal-separator" aria-hidden="true"></i>
+        <span class="footer__legal-item">DYOR</span>
+      </p>
       <div class="footer__disclaimer">
         <p class="disclaimer-text">
           <strong><i data-lucide="triangle-alert" class="disclaimer-icon" aria-hidden="true"></i><span data-i18n="indexV2.footer.riskTitle">Risk Disclaimer:</span></strong>
@@ -1051,7 +1147,7 @@
 
   
   <div class="toast" id="toast" role="status" aria-live="polite">
-    <i data-lucide="check-circle-2" class="toast__icon" aria-hidden="true"></i>
+    <i data-lucide="circle-check" class="toast__icon" aria-hidden="true"></i>
     <span id="toast-text" data-i18n="indexV2.ui.copiedToast">Copied to clipboard</span>
   </div>
     <script src="./static/js/schema/index.js" defer></script>
