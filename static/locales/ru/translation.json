@@ -2,12 +2,14 @@
   "languages": {
     "en": "English",
     "ru": "Русский",
-    "pl": "Polski"
+    "pl": "Polski",
+    "zh": "中文"
   },
   "language": {
     "current": "🇺🇸",
     "english": "🇺🇸 English",
     "russian": "🇷🇺 Russian",
+    "chinese": "🇨🇳 中文",
     "toggleLabel": "Сменить язык",
     "selectorTitle": "Выберите язык",
     "selectorAriaLabel": "Выбор языка",
@@ -72,7 +74,7 @@
       "beyondItem4": "Кросс-экосистемные коллабы",
       "beyondItem5": "Голосование сообщества",
       "beyondItem6": "За пределами Telegram",
-      "beyondNote": "Долгосрочные планы. На стадии оценки. Без обещаний - только амбиции Цун-тян."
+      "beyondNote": "Долгосрочные планы. На стадии оценки. Без обещаний — только амбиции Цун-тян."
     },
     "hero": {
       "badge": "GameFi x Блокчейн TON",

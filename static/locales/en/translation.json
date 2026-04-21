@@ -2,12 +2,15 @@
   "languages": {
     "en": "English",
     "ru": "Русский",
-    "pl": "Polski"
+    "pl": "Polski",
+    "zh": "中文"
   },
   "language": {
     "current": "🇺🇸",
     "english": "🇺🇸 English",
     "russian": "🇷🇺 Russian",
+    "polish": "🇵🇱 Polski",
+    "chinese": "🇨🇳 中文",
     "toggleLabel": "Change language",
     "selectorTitle": "Choose Language",
     "selectorAriaLabel": "Language selector",
@@ -72,7 +75,7 @@
       "beyondItem4": "Ecosystem Crossover Events",
       "beyondItem5": "Community Governance",
       "beyondItem6": "Beyond Telegram",
-      "beyondNote": "Long-term vision. Under evaluation. No promises - just Tsun-chan's ambitions."
+      "beyondNote": "Long-term vision. Under evaluation. No promises — just Tsun-chan's ambitions."
     },
     "hero": {
       "badge": "GameFi x TON Blockchain",

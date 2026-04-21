@@ -1,9 +1,15 @@
 {
+  "languages": {
+    "en": "English",
+    "ru": "Русский",
+    "pl": "Polski",
+    "zh": "中文"
+  },
   "language": {
     "current": "🇵🇱",
     "english": "🇺🇸 English",
     "russian": "🇷🇺 Russian",
-    "polish": "🇵🇱 Polski",
+    "chinese": "🇨🇳 中文",
     "toggleLabel": "Zmień język",
     "selectorTitle": "Wybierz język",
     "selectorAriaLabel": "Wybór języka",
@@ -68,7 +74,7 @@
       "beyondItem4": "Wspólne eventy z ekosystemem",
       "beyondItem5": "Głosowanie społeczności",
       "beyondItem6": "Poza Telegramem",
-      "beyondNote": "Wizja długoterminowa. W trakcie oceny. Bez obietnic - tylko ambicje Tsun-chan."
+      "beyondNote": "Wizja długoterminowa. W trakcie oceny. Bez obietnic — tylko ambicje Tsun-chan."
     },
     "hero": {
       "badge": "GameFi x TON Blockchain",
