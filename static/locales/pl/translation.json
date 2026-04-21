@@ -62,11 +62,13 @@
       "phase3Item5": "Wprowadzenie mnożników bonusowych dla posiadaczy w Grze Karcianej",
       "phase3Urgency": "Kwalifikacja do airdropa zależy od rankingu w Fazie 2 – wejdź wcześnie.",
       "beyondLabel": "// Poza Roadmapem",
-      "beyondItem1": "NFT Gacha: Karty Tsundere Waifu",
-      "beyondItem2": "Współpraca z innymi maskotkami z TON",
-      "beyondItem3": "Badania nad mechanizmem Stakingu",
-      "beyondItem4": "Anime Pakiety Kart",
-      "beyondNote": "Elementy długoterminowej wizji w fazie oceny. Żadnych obietnic, tylko możliwości."
+      "beyondItem1": "Sezonowe serie waifu",
+      "beyondItem2": "Wojny klanów i sezony rankingowe",
+      "beyondItem3": "Staking dla holderów $TSUN",
+      "beyondItem4": "Wspólne eventy z ekosystemem",
+      "beyondItem5": "Głosowanie społeczności",
+      "beyondItem6": "Poza Telegramem",
+      "beyondNote": "Wizja długoterminowa. W trakcie oceny. Bez obietnic - tylko ambicje Tsun-chan."
     },
     "hero": {
       "badge": "GameFi x TON Blockchain",
